@@ -106,3 +106,19 @@ a {
   margin-bottom: 1rem;
   font-family: monospace;
 }
+
+
+.dual-column {
+  display: flex;
+  gap: 1.5rem;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.dual-column .buttons {
+  flex: 1;
+}
+
+.dual-column .node-block {
+  flex: 1.5;
+}
