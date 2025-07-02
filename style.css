@@ -1,52 +1,67 @@
+@font-face {
+  font-family: 'Antfarm';
+  src: url('fonts/Antfarm.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
 body {
   margin: 0;
-  padding: 2rem;
+  padding: 0;
   font-family: 'IBM Plex Mono', monospace;
   background: #fdfdfd;
   color: #111;
 }
 
-main {
-  max-width: 800px;
-  margin: auto;
+.container {
+  display: flex;
+  flex-direction: column;
+  max-width: 430px;
+  margin: 0 auto;
+  padding: 1.5rem;
 }
 
-h1 {
-  font-size: 1.5rem;
-  margin-bottom: 2rem;
+.photo img {
+  width: 100%;
+  height: auto;
+  margin-bottom: 1.5rem;
+  border: 1px solid #ccc;
 }
 
-.status p,
-.intro p {
+.text-block p {
   margin: 0.5rem 0;
   line-height: 1.5;
 }
 
-nav ul {
-  list-style: none;
-  padding: 0;
-  margin: 2rem 0;
+.antfarm {
+  font-family: 'Antfarm', sans-serif;
+  font-size: 1.1rem;
+  margin-bottom: 1rem;
 }
 
-nav ul li {
+.nav {
+  list-style: none;
+  padding-left: 0;
+  margin-top: 1.5rem;
+}
+
+.nav li {
   margin: 0.3rem 0;
 }
 
-nav a,
-footer a {
-  color: #333;
+.nav a {
+  color: #111;
   text-decoration: none;
-  border-bottom: 1px dotted #ccc;
+  border-bottom: 1px dotted #999;
 }
 
-footer {
-  margin-top: 3rem;
+.footer {
+  margin-top: 2rem;
 }
 
-footer .links {
-  margin-top: 1rem;
-}
-
-footer .links a {
+.footer .links a {
   margin-right: 1rem;
+  text-decoration: none;
+  border-bottom: 1px solid #aaa;
+  color: #111;
 }
