@@ -12,6 +12,13 @@ body {
   font-size: 14px;
 }
 
+.grad h2,
+.donate h2,
+.contact h2 {
+  text-align: center;
+}
+
+
 a {
   color: black;
   text-decoration: none;
