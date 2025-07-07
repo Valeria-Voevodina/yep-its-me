@@ -129,7 +129,7 @@ a {
 
 .dotted-line {
   border: none;
-  border-top: 1px dotted #000;
+  border-top: 4px dotted #000;
   margin: 2rem 0;
 }
 
