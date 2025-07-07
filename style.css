@@ -127,9 +127,10 @@ a {
   line-height: 1.5;
 }
 
-.footer .dots {
-  margin-bottom: 10vh;
-  font-family: monospace;
+.dotted-line {
+  border: none;
+  border-top: 1px dotted #000;
+  margin: 2rem 0;
 }
 
 
