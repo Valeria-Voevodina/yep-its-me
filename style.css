@@ -25,6 +25,11 @@ a {
   text-decoration: none;
 }
 
+a.special-link {
+  font-family: inherit;
+  unicode-bidi: isolate;
+}
+
 .wrapper {
   max-width: 400px;
   margin: 0 auto;
