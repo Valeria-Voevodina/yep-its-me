@@ -16,7 +16,7 @@ body {
 .donate h2,
 .contact h2 {
   text-align: center;
-  line-height: 1.6;
+  line-height: 1.4;
 }
 
 
@@ -73,7 +73,6 @@ a {
 /* node + intro box */
 .node-block .node {
   font-size: 0.9rem;
-  font-style: italic;
   margin-bottom: 2vh;
 }
 
@@ -82,6 +81,7 @@ a {
   padding: 0 1rem;
   margin-top: 1vh;
   line-height: 1.5;
+  font-style: italic;
 }
 
 /* grad section */
