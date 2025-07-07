@@ -90,11 +90,11 @@ a.special-link {
 }
 
 .summary {
-  border: 1px solid black;
-  padding: 0 1rem;
-  margin-top: 1vh;
+  font-size: 0.95rem;
   line-height: 1.5;
-  font-style: italic;
+  margin-left: 50%;
+  margin-top: 2vh;
+  margin-bottom: 2vh;
 }
 
 /* grad section */
