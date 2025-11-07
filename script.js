@@ -358,6 +358,46 @@ document.addEventListener('keydown', (e) => {
 
 showSlide();
 
+const lightbox = document.getElementById('lightbox');
+const lightboxImg = document.getElementById('lightbox-img');
+const closeBtn = document.querySelector('.lightbox-close');
+
+function setupGlobalImageLightbox() {
+    const allImages = document.querySelectorAll('img');
+
+    allImages.forEach(img => {
+    
+        if (img.closest('.grid-item') || img.closest('.arrow') || img.closest('.menu-toggle')) {
+            return; 
+        }
+
+        img.addEventListener('click', function(e) {
+            e.preventDefault(); // Предотвращаем любое стандартное действие
+
+            lightboxImg.src = this.src;
+            
+            lightbox.style.display = 'block';
+        });
+    });
+}
+
+if (closeBtn) {
+    closeBtn.addEventListener('click', function() {
+        lightbox.style.display = 'none';
+    });
+}
+
+if (lightbox) {
+    lightbox.addEventListener('click', function(e) {
+        if (e.target === lightbox) {
+            lightbox.style.display = 'none';
+        }
+    });
+}
+
+// Запускаем настройку после загрузки DOM
+document.addEventListener('DOMContentLoaded', setupGlobalImageLightbox);
+
 const projects = {
   1: `
     <div class="project-header">
