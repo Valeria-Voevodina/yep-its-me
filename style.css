@@ -536,6 +536,9 @@ video {
     flex-direction: column;
     gap: 0rem;
   }
+    .video-container:click .controls {
+      opacity: 1;
+    }
   .left,
   .right-column,
   .right-comment {
