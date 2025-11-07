@@ -358,6 +358,1197 @@ document.addEventListener('keydown', (e) => {
 
 showSlide();
 
+const projects = {
+  1: `
+    <div class="project-header">
+
+      <div class="project-controls">
+          <button class="share-project-btn" data-project-id="1">share</button>
+          <button class="close-project-btn">
+            <img src="images/close.svg" alt="close">
+          </button>
+      </div>
+
+    </div>
+
+    <div class="project-images-grid">
+
+      <div class="project-image-item">
+        <img src="превью проекта/превью проекта_01.jpg">
+      </div>
+      <div class="project-image-item">
+        <img src="статистика проекта/статистика проекта_01.png">
+      </div>
+
+    </div>
+
+    <div class="pdf-container">
+      <iframe src="проекты/01. OBSERVATION, TRANSLATION AND INVENTION.pdf"></iframe>
+    </div>
+  `,
+  2: `
+    <div class="project-header">
+
+      <div class="project-controls">
+          <button class="share-project-btn" data-project-id="1">share</button>
+          <button class="close-project-btn">
+            <img src="images/close.svg" alt="close">
+          </button>
+      </div>
+
+    </div>
+
+    <div class="project-images-grid">
+
+      <div class="project-image-item">
+        <img src="превью проекта/превью проекта_02.jpg">
+      </div>
+      <div class="project-image-item">
+        <img src="статистика проекта/статистика проекта_02.png">
+      </div>
+      
+    </div>
+
+    <div class="pdf-container">
+      <iframe src="проекты/02. SKIN AND BONE.pdf"></iframe>
+    </div>
+  `,
+  3: `
+    <div class="project-header">
+
+      <div class="project-controls">
+          <button class="share-project-btn" data-project-id="1">share</button>
+          <button class="close-project-btn">
+            <img src="images/close.svg" alt="close">
+          </button>
+      </div>
+
+    </div>
+
+    <div class="project-images-grid">
+
+      <div class="project-image-item">
+        <img src="превью проекта/превью проекта_03.jpg">
+      </div>
+      <div class="project-image-item">
+        <img src="статистика проекта/статистика проекта_03.png">
+      </div>
+      
+    </div>
+
+    <div class="pdf-container">
+      <iframe src="проекты/03. FABRICATION FOR THE LENS.pdf"></iframe>
+    </div>
+  `,
+  4: `
+    <div class="project-header">
+
+      <div class="project-controls">
+          <button class="share-project-btn" data-project-id="1">share</button>
+          <button class="close-project-btn">
+            <img src="images/close.svg" alt="close">
+          </button>
+      </div>
+
+    </div>
+
+    <div class="project-images-grid">
+
+      <div class="project-image-item">
+        <img src="превью проекта/превью проекта_04.jpg">
+      </div>
+      <div class="project-image-item">
+        <img src="статистика проекта/статистика проекта_04.png">
+      </div>
+
+    </div>
+
+    <div class="pdf-container">
+      <iframe src="проекты/04. WHERE WORLDS COLLIDE.pdf"></iframe>
+    </div>
+  `,
+  5: `
+    <div class="project-header">
+
+      <div class="project-controls">
+          <button class="share-project-btn" data-project-id="1">share</button>
+          <button class="close-project-btn">
+            <img src="images/close.svg" alt="close">
+          </button>
+      </div>
+
+    </div>
+
+    <div class="project-images-grid">
+
+      <div class="project-image-item">
+        <img src="превью проекта/превью проекта_05.jpg">
+      </div>
+      <div class="project-image-item">
+        <img src="статистика проекта/статистика проекта_05.png">
+      </div>
+
+    </div>
+
+    <div class="pdf-container">
+      <iframe src="/Users/valery/Downloads/yep-its-me-2.0/проекты/05. TEXT AND LANGUAGE.pdf"></iframe>
+    </div>
+  `,
+  6: `
+    <div class="project-header">
+
+      <div class="project-controls">
+          <button class="share-project-btn" data-project-id="1">share</button>
+          <button class="close-project-btn">
+            <img src="images/close.svg" alt="close">
+          </button>
+      </div>
+
+    </div>
+
+    <div class="project-images-grid">
+
+      <div class="project-image-item">
+        <img src="превью проекта/превью проекта_06.jpg">
+      </div>
+      <div class="project-image-item">
+        <img src="статистика проекта/статистика проекта_06.png">
+      </div>
+
+    </div>
+
+    <div class="pdf-container">
+      <iframe src="проекты/06. PERCENT.pdf"></iframe>
+    </div>
+  `,
+  7: `
+    <div class="project-header">
+
+      <div class="project-controls">
+          <button class="share-project-btn" data-project-id="1">share</button>
+          <button class="close-project-btn">
+            <img src="images/close.svg" alt="close">
+          </button>
+      </div>
+
+    </div>
+
+    <div class="project-images-grid">
+
+      <div class="project-image-item">
+        <img src="превью проекта/превью проекта_07.jpg">
+      </div>
+      <div class="project-image-item">
+        <img src="статистика проекта/статистика проекта_07.png">
+      </div>
+
+    </div>
+
+    <div class="pdf-container">
+      <iframe src="проекты/07. X.pdf"></iframe>
+    </div>
+  `,
+  8: `
+    <div class="project-header">
+
+      <div class="project-controls">
+          <button class="share-project-btn" data-project-id="1">share</button>
+          <button class="close-project-btn">
+            <img src="images/close.svg" alt="close">
+          </button>
+      </div>
+
+    </div>
+
+    <div class="project-images-grid">
+
+      <div class="project-image-item">
+        <img src="превью проекта/превью проекта_08.jpg">
+      </div>
+      <div class="project-image-item">
+        <img src="статистика проекта/статистика проекта_08.png">
+      </div>
+
+    </div>
+
+    <div class="pdf-container">
+      <iframe src="проекты/08. –>.pdf"></iframe>
+    </div>
+  `,
+  9: `
+    <div class="project-header">
+
+      <div class="project-controls">
+          <button class="share-project-btn" data-project-id="1">share</button>
+          <button class="close-project-btn">
+            <img src="images/close.svg" alt="close">
+          </button>
+      </div>
+
+    </div>
+
+    <div class="project-images-grid">
+
+      <div class="project-image-item">
+        <img src="превью проекта/превью проекта_09.jpg">
+      </div>
+      <div class="project-image-item">
+        <img src="статистика проекта/статистика проекта_09.png">
+      </div>
+
+    </div>
+
+    <div class="pdf-container">
+      <iframe src="проекты/09. (YELLOW CIRCLE).pdf"></iframe>
+    </div>
+  `,
+  10: `
+    <div class="project-header">
+
+      <div class="project-controls">
+          <button class="share-project-btn" data-project-id="1">share</button>
+          <button class="close-project-btn">
+            <img src="images/close.svg" alt="close">
+          </button>
+      </div>
+
+    </div>
+
+    <div class="project-images-grid">
+
+      <div class="project-image-item">
+        <img src="превью проекта/превью проекта_10.jpg">
+      </div>
+      <div class="project-image-item">
+        <img src="статистика проекта/статистика проекта_10.png">
+      </div>
+
+    </div>
+
+    <div class="pdf-container">
+      <iframe src="проекты/10. ONE.pdf"></iframe>
+    </div>
+  `,
+  11: `
+    <div class="project-header">
+
+      <div class="project-controls">
+          <button class="share-project-btn" data-project-id="1">share</button>
+          <button class="close-project-btn">
+            <img src="images/close.svg" alt="close">
+          </button>
+      </div>
+
+    </div>
+
+    <div class="project-images-grid">
+
+      <div class="project-image-item">
+        <img src="превью проекта/превью проекта_11.jpg">
+      </div>
+      <div class="project-image-item">
+        <img src="статистика проекта/статистика проекта_11.png">
+      </div>
+
+    </div>
+
+    <div class="pdf-container">
+      <iframe src="проекты/11. <*))))><.pdf"></iframe>
+    </div>
+  `,
+  12: `
+    <div class="project-header">
+
+      <div class="project-controls">
+          <button class="share-project-btn" data-project-id="1">share</button>
+          <button class="close-project-btn">
+            <img src="images/close.svg" alt="close">
+          </button>
+      </div>
+
+    </div>
+
+    <div class="project-images-grid">
+
+      <div class="project-image-item">
+        <img src="превью проекта/превью проекта_12.jpg">
+      </div>
+      <div class="project-image-item">
+        <img src="статистика проекта/статистика проекта_12.png">
+      </div>
+
+    </div>
+
+    <div class="pdf-container">
+      <iframe src="проекты/12. DEVELOPING INDEPENDENCE.pdf"></iframe>
+    </div>
+  `,
+  13: `
+    <div class="project-header">
+
+      <div class="project-controls">
+          <button class="share-project-btn" data-project-id="1">share</button>
+          <button class="close-project-btn">
+            <img src="images/close.svg" alt="close">
+          </button>
+      </div>
+
+    </div>
+
+    <div class="project-images-grid">
+
+      <div class="project-image-item">
+        <img src="превью проекта/превью проекта_13.jpg">
+      </div>
+      <div class="project-image-item">
+        <img src="статистика проекта/статистика проекта_13.png">
+      </div>
+
+    </div>
+
+    <div class="pdf-container">
+      <iframe src="проекты/13. INDEPENDENT PROJECT.pdf"></iframe>
+    </div>
+  `,
+  14: `
+    <div class="project-header">
+
+      <div class="project-controls">
+          <button class="share-project-btn" data-project-id="1">share</button>
+          <button class="close-project-btn">
+            <img src="images/close.svg" alt="close">
+          </button>
+      </div>
+
+    </div>
+
+    <div class="project-images-grid">
+
+      <div class="project-image-item">
+        <img src="превью проекта/превью проекта_14.jpg">
+      </div>
+      <div class="project-image-item">
+        <img src="статистика проекта/статистика проекта_14.png">
+      </div>
+
+    </div>
+
+    <div class="pdf-container">
+      <iframe src="проекты/14. SECRET PROJECT.pdf"></iframe>
+    </div>
+  `,
+  15: `
+    <div class="project-header">
+
+      <div class="project-controls">
+          <button class="share-project-btn" data-project-id="1">share</button>
+          <button class="close-project-btn">
+            <img src="images/close.svg" alt="close">
+          </button>
+      </div>
+
+    </div>
+
+    <div class="project-images-grid">
+
+      <div class="project-image-item">
+        <img src="превью проекта/превью проекта_15.jpg">
+      </div>
+      <div class="project-image-item">
+        <img src="статистика проекта/статистика проекта_15.png">
+      </div>
+
+    </div>
+
+    <div class="pdf-container">
+      <iframe src="проекты/15. TIME VS. SPACE.pdf"></iframe>
+    </div>
+  `,
+  16: `
+    <div class="project-header">
+
+      <div class="project-controls">
+          <button class="share-project-btn" data-project-id="1">share</button>
+          <button class="close-project-btn">
+            <img src="images/close.svg" alt="close">
+          </button>
+      </div>
+
+    </div>
+
+    <div class="project-images-grid">
+
+      <div class="project-image-item">
+        <img src="превью проекта/превью проекта_16.jpg">
+      </div>
+      <div class="project-image-item">
+        <img src="статистика проекта/статистика проекта_16.png">
+      </div>
+
+    </div>
+
+    <div class="pdf-container">
+      <iframe src="проекты/16. LUCKY NUMBERS.pdf"></iframe>
+    </div>
+  `,
+  17: `
+    <div class="project-header">
+
+      <div class="project-controls">
+          <button class="share-project-btn" data-project-id="1">share</button>
+          <button class="close-project-btn">
+            <img src="images/close.svg" alt="close">
+          </button>
+      </div>
+
+    </div>
+
+    <div class="project-images-grid">
+
+      <div class="project-image-item">
+        <img src="превью проекта/превью проекта_17.jpg">
+      </div>
+      <div class="project-image-item">
+        <img src="статистика проекта/статистика проекта_17.png">
+      </div>
+
+    </div>
+
+    <div class="pdf-container">
+      <iframe src="проекты/17. WORD + IMAGE.pdf"></iframe>
+    </div>
+  `,
+  18: `
+    <div class="project-header">
+
+      <div class="project-controls">
+          <button class="share-project-btn" data-project-id="1">share</button>
+          <button class="close-project-btn">
+            <img src="images/close.svg" alt="close">
+          </button>
+      </div>
+
+    </div>
+
+    <div class="project-images-grid">
+
+      <div class="project-image-item">
+        <img src="превью проекта/превью проекта_18.jpg">
+      </div>
+      <div class="project-image-item">
+        <img src="статистика проекта/статистика проекта_18.png">
+      </div>
+
+    </div>
+
+    <div class="pdf-container">
+      <iframe src="проекты/18. INFRA–ORDINARIE.pdf"></iframe>
+    </div>
+  `,
+  19: `
+    <div class="project-header">
+
+      <div class="project-controls">
+          <button class="share-project-btn" data-project-id="1">share</button>
+          <button class="close-project-btn">
+            <img src="images/close.svg" alt="close">
+          </button>
+      </div>
+
+    </div>
+
+    <div class="project-images-grid">
+
+      <div class="project-image-item">
+        <img src="превью проекта/превью проекта_19.jpg">
+      </div>
+      <div class="project-image-item">
+        <img src="статистика проекта/статистика проекта_19.png">
+      </div>
+
+    </div>
+
+    <div class="pdf-container">
+      <iframe src="проекты/19. TEXT –> PARAGRAPH –>.pdf"></iframe>
+    </div>
+  `,
+  20: `
+    <div class="project-header">
+
+      <div class="project-controls">
+          <button class="share-project-btn" data-project-id="1">share</button>
+          <button class="close-project-btn">
+            <img src="images/close.svg" alt="close">
+          </button>
+      </div>
+
+    </div>
+
+    <div class="project-images-grid">
+
+      <div class="project-image-item">
+        <img src="превью проекта/превью проекта_20.jpg">
+      </div>
+      <div class="project-image-item">
+        <img src="статистика проекта/статистика проекта_20.png">
+      </div>
+
+    </div>
+
+    <div class="pdf-container">
+      <iframe src="проекты/20. RECORD COVER.pdf"></iframe>
+    </div>
+  `,
+  21: `
+    <div class="project-header">
+
+      <div class="project-controls">
+          <button class="share-project-btn" data-project-id="1">share</button>
+          <button class="close-project-btn">
+            <img src="images/close.svg" alt="close">
+          </button>
+      </div>
+
+    </div>
+
+    <div class="project-images-grid">
+
+      <div class="project-image-item">
+        <img src="превью проекта/превью проекта_21.jpg">
+      </div>
+      <div class="project-image-item">
+        <img src="статистика проекта/статистика проекта_21.png">
+      </div>
+
+    </div>
+
+    <div class="pdf-container">
+      <iframe src="проекты/21. FANZINE.pdf"></iframe>
+    </div>
+  `,
+  22: `
+    <div class="project-header">
+
+      <div class="project-controls">
+          <button class="share-project-btn" data-project-id="1">share</button>
+          <button class="close-project-btn">
+            <img src="images/close.svg" alt="close">
+          </button>
+      </div>
+
+    </div>
+
+    <div class="project-images-grid">
+
+      <div class="project-image-item">
+        <img src="превью проекта/превью проекта_22.jpg">
+      </div>
+      <div class="project-image-item">
+        <img src="статистика проекта/статистика проекта_22.png">
+      </div>
+
+    </div>
+
+    <div class="pdf-container">
+      <iframe src="проекты/22. TO TRANSLATE.pdf"></iframe>
+    </div>
+  `,
+  23: `
+    <div class="project-header">
+
+      <div class="project-controls">
+          <button class="share-project-btn" data-project-id="1">share</button>
+          <button class="close-project-btn">
+            <img src="images/close.svg" alt="close">
+          </button>
+      </div>
+
+    </div>
+
+    <div class="project-images-grid">
+
+      <div class="project-image-item">
+        <img src="превью проекта/превью проекта_23.jpg">
+      </div>
+      <div class="project-image-item">
+        <img src="статистика проекта/статистика проекта_23.png">
+      </div>
+
+    </div>
+
+    <div class="pdf-container">
+      <iframe src="проекты/23. KIND OF MAGIC.pdf"></iframe>
+    </div>
+  `,
+  24: `
+    <div class="project-header">
+
+      <div class="project-controls">
+          <button class="share-project-btn" data-project-id="1">share</button>
+          <button class="close-project-btn">
+            <img src="images/close.svg" alt="close">
+          </button>
+      </div>
+
+    </div>
+
+    <div class="project-images-grid">
+
+      <div class="project-image-item">
+        <img src="превью проекта/превью проекта_24.jpg">
+      </div>
+      <div class="project-image-item">
+        <img src="статистика проекта/статистика проекта_24.png">
+      </div>
+
+    </div>
+
+    <div class="pdf-container">
+      <iframe src="проекты/24. BASIC OPERATIONS.pdf"></iframe>
+    </div>
+  `,
+  25: `
+    <div class="project-header">
+
+      <div class="project-controls">
+          <button class="share-project-btn" data-project-id="1">share</button>
+          <button class="close-project-btn">
+            <img src="images/close.svg" alt="close">
+          </button>
+      </div>
+
+    </div>
+
+    <div class="project-images-grid">
+
+      <div class="project-image-item">
+        <img src="превью проекта/превью проекта_25.jpg">
+      </div>
+      <div class="project-image-item">
+        <img src="статистика проекта/статистика проекта_25.png">
+      </div>
+
+    </div>
+
+    <div class="pdf-container">
+      <iframe src="проекты/25. IF. ELSE. THEN.pdf"></iframe>
+    </div>
+  `,
+  26: `
+    <div class="project-header">
+
+      <div class="project-controls">
+          <button class="share-project-btn" data-project-id="1">share</button>
+          <button class="close-project-btn">
+            <img src="images/close.svg" alt="close">
+          </button>
+      </div>
+
+    </div>
+
+    <div class="project-images-grid">
+
+      <div class="project-image-item">
+        <img src="превью проекта/превью проекта_26.jpg">
+      </div>
+      <div class="project-image-item">
+        <img src="статистика проекта/статистика проекта_26.png">
+      </div>
+
+    </div>
+
+    <div class="pdf-container">
+      <iframe src="проекты/26. TALENT SHOW.pdf"></iframe>
+    </div>
+  `,
+  27: `
+    <div class="project-header">
+
+      <div class="project-controls">
+          <button class="share-project-btn" data-project-id="1">share</button>
+          <button class="close-project-btn">
+            <img src="images/close.svg" alt="close">
+          </button>
+      </div>
+
+    </div>
+
+    <div class="project-images-grid">
+
+      <div class="project-image-item">
+        <img src="превью проекта/превью проекта_27.jpg">
+      </div>
+      <div class="project-image-item">
+        <img src="статистика проекта/статистика проекта_27.png">
+      </div>
+
+    </div>
+
+    <div class="pdf-container">
+      <iframe src="проекты/27. THE CRAZY SCIENTISTS LABORATORY.pdf"></iframe>
+    </div>
+  `,
+  28: `
+    <div class="project-header">
+
+      <div class="project-controls">
+          <button class="share-project-btn" data-project-id="1">share</button>
+          <button class="close-project-btn">
+            <img src="images/close.svg" alt="close">
+          </button>
+      </div>
+
+    </div>
+
+    <div class="project-images-grid">
+
+      <div class="project-image-item">
+        <img src="превью проекта/превью проекта_28.jpg">
+      </div>
+      <div class="project-image-item">
+        <img src="статистика проекта/статистика проекта_28.png">
+      </div>
+
+    </div>
+
+    <div class="pdf-container">
+      <iframe src="проекты/28. EXPERIMENTAL NOTATION.pdf"></iframe>
+    </div>
+  `,
+  29: `
+    <div class="project-header">
+
+      <div class="project-controls">
+          <button class="share-project-btn" data-project-id="1">share</button>
+          <button class="close-project-btn">
+            <img src="images/close.svg" alt="close">
+          </button>
+      </div>
+
+    </div>
+
+    <div class="project-images-grid">
+
+      <div class="project-image-item">
+        <img src="превью проекта/превью проекта_29.jpg">
+      </div>
+      <div class="project-image-item">
+        <img src="статистика проекта/статистика проекта_29.png">
+      </div>
+
+    </div>
+
+    <div class="pdf-container">
+      <iframe src="проекты/29. HAPPY ACCIDENTS.pdf"></iframe>
+    </div>
+  `,
+  30: `
+    <div class="project-header">
+
+      <div class="project-controls">
+          <button class="share-project-btn" data-project-id="1">share</button>
+          <button class="close-project-btn">
+            <img src="images/close.svg" alt="close">
+          </button>
+      </div>
+
+    </div>
+
+    <div class="project-images-grid">
+
+      <div class="project-image-item">
+        <img src="превью проекта/превью проекта_30.jpg">
+      </div>
+      <div class="project-image-item">
+        <img src="статистика проекта/статистика проекта_30.png">
+      </div>
+
+    </div>
+
+    <div class="pdf-container">
+      <iframe src="проекты/30. FORBES EDUCATION MAGAZINE.pdf"></iframe>
+    </div>
+  `,
+  31: `
+    <div class="project-header">
+
+      <div class="project-controls">
+          <button class="share-project-btn" data-project-id="1">share</button>
+          <button class="close-project-btn">
+            <img src="images/close.svg" alt="close">
+          </button>
+      </div>
+
+    </div>
+
+    <div class="project-images-grid">
+
+      <div class="project-image-item">
+        <img src="превью проекта/превью проекта_31.jpg">
+      </div>
+      <div class="project-image-item">
+        <img src="статистика проекта/статистика проекта_31.png">
+      </div>
+
+    </div>
+
+    <div class="pdf-container">
+      <iframe src="проекты/31. TYPOPHOTO.pdf"></iframe>
+    </div>
+  `,
+  32: `
+    <div class="project-header">
+
+      <div class="project-controls">
+          <button class="share-project-btn" data-project-id="1">share</button>
+          <button class="close-project-btn">
+            <img src="images/close.svg" alt="close">
+          </button>
+      </div>
+
+    </div>
+
+    <div class="project-images-grid">
+
+      <div class="project-image-item">
+        <img src="превью проекта/превью проекта_32.jpg">
+      </div>
+      <div class="project-image-item">
+        <img src="статистика проекта/статистика проекта_32.png">
+      </div>
+
+    </div>
+
+    <div class="pdf-container">
+      <iframe src="проекты/32. STOP. GO.pdf"></iframe>
+    </div>
+  `,
+  33: `
+    <div class="project-header">
+
+      <div class="project-controls">
+          <button class="share-project-btn" data-project-id="1">share</button>
+          <button class="close-project-btn">
+            <img src="images/close.svg" alt="close">
+          </button>
+      </div>
+
+    </div>
+
+    <div class="project-images-grid">
+
+      <div class="project-image-item">
+        <img src="превью проекта/превью проекта_33.jpg">
+      </div>
+      <div class="project-image-item">
+        <img src="статистика проекта/статистика проекта_33.png">
+      </div>
+
+    </div>
+
+    <div class="pdf-container">
+      <iframe src="проекты/33. MOOD SWINGS.pdf"></iframe>
+    </div>
+  `,
+  34: `
+    <div class="project-header">
+
+      <div class="project-controls">
+          <button class="share-project-btn" data-project-id="1">share</button>
+          <button class="close-project-btn">
+            <img src="images/close.svg" alt="close">
+          </button>
+      </div>
+
+    </div>
+
+    <div class="project-images-grid">
+
+      <div class="project-image-item">
+        <img src="превью проекта/превью проекта_34.jpg">
+      </div>
+      <div class="project-image-item">
+        <img src="статистика проекта/статистика проекта_34.png">
+      </div>
+
+    </div>
+
+    <div class="pdf-container">
+      <iframe src="проекты/34. MAKE A PORTFOLIO.pdf"></iframe>
+    </div>
+  `,
+  35: `
+    <div class="project-header">
+
+      <div class="project-controls">
+          <button class="share-project-btn" data-project-id="1">share</button>
+          <button class="close-project-btn">
+            <img src="images/close.svg" alt="close">
+          </button>
+      </div>
+
+    </div>
+
+    <div class="project-images-grid">
+
+      <div class="project-image-item">
+        <img src="превью проекта/превью проекта_35.jpg">
+      </div>
+      <div class="project-image-item">
+        <img src="статистика проекта/статистика проекта_35.png">
+      </div>
+
+    </div>
+
+    <div class="pdf-container">
+      <iframe src="проекты/35. ITS A MATCH.pdf"></iframe>
+    </div>
+  `,
+  36: `
+    <div class="project-header">
+
+      <div class="project-controls">
+          <button class="share-project-btn" data-project-id="1">share</button>
+          <button class="close-project-btn">
+            <img src="images/close.svg" alt="close">
+          </button>
+      </div>
+
+    </div>
+
+    <div class="project-images-grid">
+
+      <div class="project-image-item">
+        <img src="превью проекта/превью проекта_36.jpg">
+      </div>
+      <div class="project-image-item">
+        <img src="статистика проекта/статистика проекта_36.png">
+      </div>
+
+    </div>
+
+    <div class="pdf-container">
+      <iframe src="проекты/36. VDNX.pdf"></iframe>
+    </div>
+  `,
+  37: `
+    <div class="project-header">
+
+      <div class="project-controls">
+          <button class="share-project-btn" data-project-id="1">share</button>
+          <button class="close-project-btn">
+            <img src="images/close.svg" alt="close">
+          </button>
+      </div>
+
+    </div>
+
+    <div class="project-images-grid">
+
+      <div class="project-image-item">
+        <img src="превью проекта/превью проекта_37.jpg">
+      </div>
+      <div class="project-image-item">
+        <img src="статистика проекта/статистика проекта_37.png">
+      </div>
+
+    </div>
+
+    <div class="pdf-container">
+      <iframe src="проекты/37. TREASURE SEEKERS.pdf"></iframe>
+    </div>
+  `,
+  38: `
+    <div class="project-header">
+
+      <div class="project-controls">
+          <button class="share-project-btn" data-project-id="1">share</button>
+          <button class="close-project-btn">
+            <img src="images/close.svg" alt="close">
+          </button>
+      </div>
+
+    </div>
+
+    <div class="project-images-grid">
+
+      <div class="project-image-item">
+        <img src="превью проекта/превью проекта_38.jpg">
+      </div>
+      <div class="project-image-item">
+        <img src="статистика проекта/статистика проекта_38.png">
+      </div>
+
+    </div>
+
+    <div class="pdf-container">
+      <iframe src="проекты/38. FINE ART GRADUACATALOGUE.pdf"></iframe>
+    </div>
+  `,
+  39: `
+    <div class="project-header">
+
+      <div class="project-controls">
+          <button class="share-project-btn" data-project-id="1">share</button>
+          <button class="close-project-btn">
+            <img src="images/close.svg" alt="close">
+          </button>
+      </div>
+
+    </div>
+
+    <div class="project-images-grid">
+
+      <div class="project-image-item">
+        <img src="превью проекта/превью проекта_39.jpg">
+      </div>
+      <div class="project-image-item">
+        <img src="статистика проекта/статистика проекта_39.png">
+      </div>
+
+    </div>
+
+    <div class="pdf-container">
+      <iframe src="проекты/39. DYNAMIC LETTERFORMS.pdf"></iframe>
+    </div>
+  `,
+  40: `
+    <div class="project-header">
+
+      <div class="project-controls">
+          <button class="share-project-btn" data-project-id="1">share</button>
+          <button class="close-project-btn">
+            <img src="images/close.svg" alt="close">
+          </button>
+      </div>
+
+    </div>
+
+    <div class="project-images-grid">
+
+      <div class="project-image-item">
+        <img src="превью проекта/превью проекта_40.jpg">
+      </div>
+      <div class="project-image-item">
+        <img src="статистика проекта/статистика проекта_40.png">
+      </div>
+
+    </div>
+
+    <div class="pdf-container">
+      <iframe src="проекты/40. INTERNSHIP. ENDY.pdf"></iframe>
+    </div>
+  `,
+  41: `
+    <div class="project-header">
+
+      <div class="project-controls">
+          <button class="share-project-btn" data-project-id="1">share</button>
+          <button class="close-project-btn">
+            <img src="images/close.svg" alt="close">
+          </button>
+      </div>
+
+    </div>
+
+    <div class="project-images-grid">
+
+      <div class="project-image-item">
+        <img src="превью проекта/превью проекта_41.jpg">
+      </div>
+      <div class="project-image-item">
+        <img src="статистика проекта/статистика проекта_41.png">
+      </div>
+
+    </div>
+
+    <div class="pdf-container">
+      <iframe src="проекты/41. WARMING UP.pdf"></iframe>
+    </div>
+  `,
+  42: `
+    <div class="project-header">
+
+      <div class="project-controls">
+          <button class="share-project-btn" data-project-id="1">share</button>
+          <button class="close-project-btn">
+            <img src="images/close.svg" alt="close">
+          </button>
+      </div>
+
+    </div>
+
+    <div class="project-images-grid">
+
+      <div class="project-image-item">
+        <img src="превью проекта/превью проекта_42.jpg">
+      </div>
+      <div class="project-image-item">
+        <img src="статистика проекта/статистика проекта_42.png">
+      </div>
+
+    </div>
+
+    <div class="pdf-container">
+      <iframe src="проекты/42. BREAKING THE FOURTH WALL.pdf"></iframe>
+    </div>
+  `,
+  43: `
+    <div class="project-header">
+
+      <div class="project-controls">
+          <button class="share-project-btn" data-project-id="1">share</button>
+          <button class="close-project-btn">
+            <img src="images/close.svg" alt="close">
+          </button>
+      </div>
+
+    </div>
+
+    <div class="project-images-grid">
+
+      <div class="project-image-item">
+        <img src="превью проекта/превью проекта_43.jpg">
+      </div>
+      <div class="project-image-item">
+        <img src="статистика проекта/статистика проекта_43.png">
+      </div>
+
+    </div>
+
+    <div class="pdf-container">
+      <iframe src="проекты/43. SHOWREEL.pdf"></iframe>
+    </div>
+  `,
+  44: `
+    <div class="project-header">
+
+      <div class="project-controls">
+          <button class="share-project-btn" data-project-id="1">share</button>
+          <button class="close-project-btn">
+            <img src="images/close.svg" alt="close">
+          </button>
+      </div>
+
+    </div>
+
+    <div class="project-images-grid">
+
+      <div class="project-image-item">
+        <img src="превью проекта/превью проекта_44.jpg">
+      </div>
+      <div class="project-image-item">
+        <img src="статистика проекта/статистика проекта_44.png">
+      </div>
+
+    </div>
+
+    <div class="pdf-container">
+      <iframe src="проекты/44. PACKAGING SOUL TRANSFER.pdf"></iframe>
+    </div>
+  `,
+};
+
 function closeProject() {
     if (projectBox) {
         projectBox.innerHTML = '';
