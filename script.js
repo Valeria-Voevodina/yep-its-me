@@ -372,7 +372,7 @@ function setupGlobalImageLightbox() {
         }
 
         img.addEventListener('click', function(e) {
-            e.preventDefault(); // Предотвращаем любое стандартное действие
+            e.preventDefault();ие
 
             lightboxImg.src = this.src;
             
@@ -384,6 +384,7 @@ function setupGlobalImageLightbox() {
 if (closeBtn) {
     closeBtn.addEventListener('click', function() {
         lightbox.style.display = 'none';
+        <img src="images/close.svg" alt="close">
     });
 }
 
@@ -395,7 +396,6 @@ if (lightbox) {
     });
 }
 
-// Запускаем настройку после загрузки DOM
 document.addEventListener('DOMContentLoaded', setupGlobalImageLightbox);
 
 const projects = {
@@ -403,7 +403,7 @@ const projects = {
     <div class="project-header">
 
       <div class="project-controls">
-          <button class="share-project-btn" data-project-id="1">share</button>
+          // <button class="share-project-btn" data-project-id="1">share</button>
           <button class="close-project-btn">
             <img src="images/close.svg" alt="close">
           </button>
@@ -430,7 +430,7 @@ const projects = {
     <div class="project-header">
 
       <div class="project-controls">
-          <button class="share-project-btn" data-project-id="1">share</button>
+          // <button class="share-project-btn" data-project-id="1">share</button>
           <button class="close-project-btn">
             <img src="images/close.svg" alt="close">
           </button>
@@ -457,7 +457,7 @@ const projects = {
     <div class="project-header">
 
       <div class="project-controls">
-          <button class="share-project-btn" data-project-id="1">share</button>
+          // <button class="share-project-btn" data-project-id="1">share</button>
           <button class="close-project-btn">
             <img src="images/close.svg" alt="close">
           </button>
@@ -484,7 +484,7 @@ const projects = {
     <div class="project-header">
 
       <div class="project-controls">
-          <button class="share-project-btn" data-project-id="1">share</button>
+          // <button class="share-project-btn" data-project-id="1">share</button>
           <button class="close-project-btn">
             <img src="images/close.svg" alt="close">
           </button>
@@ -511,7 +511,7 @@ const projects = {
     <div class="project-header">
 
       <div class="project-controls">
-          <button class="share-project-btn" data-project-id="1">share</button>
+          // <button class="share-project-btn" data-project-id="1">share</button>
           <button class="close-project-btn">
             <img src="images/close.svg" alt="close">
           </button>
@@ -538,7 +538,7 @@ const projects = {
     <div class="project-header">
 
       <div class="project-controls">
-          <button class="share-project-btn" data-project-id="1">share</button>
+          // <button class="share-project-btn" data-project-id="1">share</button>
           <button class="close-project-btn">
             <img src="images/close.svg" alt="close">
           </button>
@@ -565,7 +565,7 @@ const projects = {
     <div class="project-header">
 
       <div class="project-controls">
-          <button class="share-project-btn" data-project-id="1">share</button>
+          // <button class="share-project-btn" data-project-id="1">share</button>
           <button class="close-project-btn">
             <img src="images/close.svg" alt="close">
           </button>
@@ -592,7 +592,7 @@ const projects = {
     <div class="project-header">
 
       <div class="project-controls">
-          <button class="share-project-btn" data-project-id="1">share</button>
+          // <button class="share-project-btn" data-project-id="1">share</button>
           <button class="close-project-btn">
             <img src="images/close.svg" alt="close">
           </button>
@@ -619,7 +619,7 @@ const projects = {
     <div class="project-header">
 
       <div class="project-controls">
-          <button class="share-project-btn" data-project-id="1">share</button>
+          // <button class="share-project-btn" data-project-id="1">share</button>
           <button class="close-project-btn">
             <img src="images/close.svg" alt="close">
           </button>
@@ -646,7 +646,7 @@ const projects = {
     <div class="project-header">
 
       <div class="project-controls">
-          <button class="share-project-btn" data-project-id="1">share</button>
+          // <button class="share-project-btn" data-project-id="1">share</button>
           <button class="close-project-btn">
             <img src="images/close.svg" alt="close">
           </button>
@@ -673,7 +673,7 @@ const projects = {
     <div class="project-header">
 
       <div class="project-controls">
-          <button class="share-project-btn" data-project-id="1">share</button>
+          // <button class="share-project-btn" data-project-id="1">share</button>
           <button class="close-project-btn">
             <img src="images/close.svg" alt="close">
           </button>
@@ -700,7 +700,7 @@ const projects = {
     <div class="project-header">
 
       <div class="project-controls">
-          <button class="share-project-btn" data-project-id="1">share</button>
+          // <button class="share-project-btn" data-project-id="1">share</button>
           <button class="close-project-btn">
             <img src="images/close.svg" alt="close">
           </button>
@@ -727,7 +727,7 @@ const projects = {
     <div class="project-header">
 
       <div class="project-controls">
-          <button class="share-project-btn" data-project-id="1">share</button>
+          // <button class="share-project-btn" data-project-id="1">share</button>
           <button class="close-project-btn">
             <img src="images/close.svg" alt="close">
           </button>
@@ -754,7 +754,7 @@ const projects = {
     <div class="project-header">
 
       <div class="project-controls">
-          <button class="share-project-btn" data-project-id="1">share</button>
+          // <button class="share-project-btn" data-project-id="1">share</button>
           <button class="close-project-btn">
             <img src="images/close.svg" alt="close">
           </button>
@@ -781,7 +781,7 @@ const projects = {
     <div class="project-header">
 
       <div class="project-controls">
-          <button class="share-project-btn" data-project-id="1">share</button>
+          // <button class="share-project-btn" data-project-id="1">share</button>
           <button class="close-project-btn">
             <img src="images/close.svg" alt="close">
           </button>
@@ -808,7 +808,7 @@ const projects = {
     <div class="project-header">
 
       <div class="project-controls">
-          <button class="share-project-btn" data-project-id="1">share</button>
+          // <button class="share-project-btn" data-project-id="1">share</button>
           <button class="close-project-btn">
             <img src="images/close.svg" alt="close">
           </button>
@@ -835,7 +835,7 @@ const projects = {
     <div class="project-header">
 
       <div class="project-controls">
-          <button class="share-project-btn" data-project-id="1">share</button>
+          // <button class="share-project-btn" data-project-id="1">share</button>
           <button class="close-project-btn">
             <img src="images/close.svg" alt="close">
           </button>
@@ -862,7 +862,7 @@ const projects = {
     <div class="project-header">
 
       <div class="project-controls">
-          <button class="share-project-btn" data-project-id="1">share</button>
+          // <button class="share-project-btn" data-project-id="1">share</button>
           <button class="close-project-btn">
             <img src="images/close.svg" alt="close">
           </button>
@@ -889,7 +889,7 @@ const projects = {
     <div class="project-header">
 
       <div class="project-controls">
-          <button class="share-project-btn" data-project-id="1">share</button>
+          // <button class="share-project-btn" data-project-id="1">share</button>
           <button class="close-project-btn">
             <img src="images/close.svg" alt="close">
           </button>
@@ -916,7 +916,7 @@ const projects = {
     <div class="project-header">
 
       <div class="project-controls">
-          <button class="share-project-btn" data-project-id="1">share</button>
+          // <button class="share-project-btn" data-project-id="1">share</button>
           <button class="close-project-btn">
             <img src="images/close.svg" alt="close">
           </button>
@@ -943,7 +943,7 @@ const projects = {
     <div class="project-header">
 
       <div class="project-controls">
-          <button class="share-project-btn" data-project-id="1">share</button>
+          // <button class="share-project-btn" data-project-id="1">share</button>
           <button class="close-project-btn">
             <img src="images/close.svg" alt="close">
           </button>
@@ -970,7 +970,7 @@ const projects = {
     <div class="project-header">
 
       <div class="project-controls">
-          <button class="share-project-btn" data-project-id="1">share</button>
+          // <button class="share-project-btn" data-project-id="1">share</button>
           <button class="close-project-btn">
             <img src="images/close.svg" alt="close">
           </button>
@@ -997,7 +997,7 @@ const projects = {
     <div class="project-header">
 
       <div class="project-controls">
-          <button class="share-project-btn" data-project-id="1">share</button>
+          // <button class="share-project-btn" data-project-id="1">share</button>
           <button class="close-project-btn">
             <img src="images/close.svg" alt="close">
           </button>
@@ -1024,7 +1024,7 @@ const projects = {
     <div class="project-header">
 
       <div class="project-controls">
-          <button class="share-project-btn" data-project-id="1">share</button>
+          // <button class="share-project-btn" data-project-id="1">share</button>
           <button class="close-project-btn">
             <img src="images/close.svg" alt="close">
           </button>
@@ -1051,7 +1051,7 @@ const projects = {
     <div class="project-header">
 
       <div class="project-controls">
-          <button class="share-project-btn" data-project-id="1">share</button>
+          // <button class="share-project-btn" data-project-id="1">share</button>
           <button class="close-project-btn">
             <img src="images/close.svg" alt="close">
           </button>
@@ -1078,7 +1078,7 @@ const projects = {
     <div class="project-header">
 
       <div class="project-controls">
-          <button class="share-project-btn" data-project-id="1">share</button>
+          // <button class="share-project-btn" data-project-id="1">share</button>
           <button class="close-project-btn">
             <img src="images/close.svg" alt="close">
           </button>
@@ -1105,7 +1105,7 @@ const projects = {
     <div class="project-header">
 
       <div class="project-controls">
-          <button class="share-project-btn" data-project-id="1">share</button>
+          // <button class="share-project-btn" data-project-id="1">share</button>
           <button class="close-project-btn">
             <img src="images/close.svg" alt="close">
           </button>
@@ -1132,7 +1132,7 @@ const projects = {
     <div class="project-header">
 
       <div class="project-controls">
-          <button class="share-project-btn" data-project-id="1">share</button>
+          // <button class="share-project-btn" data-project-id="1">share</button>
           <button class="close-project-btn">
             <img src="images/close.svg" alt="close">
           </button>
@@ -1159,7 +1159,7 @@ const projects = {
     <div class="project-header">
 
       <div class="project-controls">
-          <button class="share-project-btn" data-project-id="1">share</button>
+          // <button class="share-project-btn" data-project-id="1">share</button>
           <button class="close-project-btn">
             <img src="images/close.svg" alt="close">
           </button>
@@ -1186,7 +1186,7 @@ const projects = {
     <div class="project-header">
 
       <div class="project-controls">
-          <button class="share-project-btn" data-project-id="1">share</button>
+          // <button class="share-project-btn" data-project-id="1">share</button>
           <button class="close-project-btn">
             <img src="images/close.svg" alt="close">
           </button>
@@ -1213,7 +1213,7 @@ const projects = {
     <div class="project-header">
 
       <div class="project-controls">
-          <button class="share-project-btn" data-project-id="1">share</button>
+          // <button class="share-project-btn" data-project-id="1">share</button>
           <button class="close-project-btn">
             <img src="images/close.svg" alt="close">
           </button>
@@ -1240,7 +1240,7 @@ const projects = {
     <div class="project-header">
 
       <div class="project-controls">
-          <button class="share-project-btn" data-project-id="1">share</button>
+          // <button class="share-project-btn" data-project-id="1">share</button>
           <button class="close-project-btn">
             <img src="images/close.svg" alt="close">
           </button>
@@ -1267,7 +1267,7 @@ const projects = {
     <div class="project-header">
 
       <div class="project-controls">
-          <button class="share-project-btn" data-project-id="1">share</button>
+          // <button class="share-project-btn" data-project-id="1">share</button>
           <button class="close-project-btn">
             <img src="images/close.svg" alt="close">
           </button>
@@ -1294,7 +1294,7 @@ const projects = {
     <div class="project-header">
 
       <div class="project-controls">
-          <button class="share-project-btn" data-project-id="1">share</button>
+          // <button class="share-project-btn" data-project-id="1">share</button>
           <button class="close-project-btn">
             <img src="images/close.svg" alt="close">
           </button>
@@ -1321,7 +1321,7 @@ const projects = {
     <div class="project-header">
 
       <div class="project-controls">
-          <button class="share-project-btn" data-project-id="1">share</button>
+          // <button class="share-project-btn" data-project-id="1">share</button>
           <button class="close-project-btn">
             <img src="images/close.svg" alt="close">
           </button>
@@ -1348,7 +1348,7 @@ const projects = {
     <div class="project-header">
 
       <div class="project-controls">
-          <button class="share-project-btn" data-project-id="1">share</button>
+          // <button class="share-project-btn" data-project-id="1">share</button>
           <button class="close-project-btn">
             <img src="images/close.svg" alt="close">
           </button>
@@ -1375,7 +1375,7 @@ const projects = {
     <div class="project-header">
 
       <div class="project-controls">
-          <button class="share-project-btn" data-project-id="1">share</button>
+          // <button class="share-project-btn" data-project-id="1">share</button>
           <button class="close-project-btn">
             <img src="images/close.svg" alt="close">
           </button>
@@ -1402,7 +1402,7 @@ const projects = {
     <div class="project-header">
 
       <div class="project-controls">
-          <button class="share-project-btn" data-project-id="1">share</button>
+          // <button class="share-project-btn" data-project-id="1">share</button>
           <button class="close-project-btn">
             <img src="images/close.svg" alt="close">
           </button>
@@ -1429,7 +1429,7 @@ const projects = {
     <div class="project-header">
 
       <div class="project-controls">
-          <button class="share-project-btn" data-project-id="1">share</button>
+          // <button class="share-project-btn" data-project-id="1">share</button>
           <button class="close-project-btn">
             <img src="images/close.svg" alt="close">
           </button>
@@ -1456,7 +1456,7 @@ const projects = {
     <div class="project-header">
 
       <div class="project-controls">
-          <button class="share-project-btn" data-project-id="1">share</button>
+          // <button class="share-project-btn" data-project-id="1">share</button>
           <button class="close-project-btn">
             <img src="images/close.svg" alt="close">
           </button>
@@ -1483,7 +1483,7 @@ const projects = {
     <div class="project-header">
 
       <div class="project-controls">
-          <button class="share-project-btn" data-project-id="1">share</button>
+          // <button class="share-project-btn" data-project-id="1">share</button>
           <button class="close-project-btn">
             <img src="images/close.svg" alt="close">
           </button>
@@ -1510,7 +1510,7 @@ const projects = {
     <div class="project-header">
 
       <div class="project-controls">
-          <button class="share-project-btn" data-project-id="1">share</button>
+          // <button class="share-project-btn" data-project-id="1">share</button>
           <button class="close-project-btn">
             <img src="images/close.svg" alt="close">
           </button>
@@ -1537,7 +1537,7 @@ const projects = {
     <div class="project-header">
 
       <div class="project-controls">
-          <button class="share-project-btn" data-project-id="1">share</button>
+          // <button class="share-project-btn" data-project-id="1">share</button>
           <button class="close-project-btn">
             <img src="images/close.svg" alt="close">
           </button>
@@ -1564,7 +1564,7 @@ const projects = {
     <div class="project-header">
 
       <div class="project-controls">
-          <button class="share-project-btn" data-project-id="1">share</button>
+          // <button class="share-project-btn" data-project-id="1">share</button>
           <button class="close-project-btn">
             <img src="images/close.svg" alt="close">
           </button>
