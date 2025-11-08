@@ -202,7 +202,7 @@ document.querySelectorAll('.menu-nav a').forEach(link => {
   });
 });
 
-function togglePlay() {
+function autoPlay() {
   if (!video) return;
   if (video.paused) {
     video.play();
