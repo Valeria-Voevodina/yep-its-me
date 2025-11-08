@@ -202,7 +202,23 @@ document.querySelectorAll('.menu-nav a').forEach(link => {
   });
 });
 
-function autoPlay() {
+function startAutoplay() {
+    if (!video) return;
+    
+    video.muted = true;
+
+    video.play()
+        .then(() => {
+            console.log("Автовоспроизведение успешно.");
+        })
+        .catch(error => {
+            console.warn("Автовоспроизведение было заблокировано. Ожидаем взаимодействия с пользователем.", error);
+        });
+}
+
+window.addEventListener('load', startAutoplay);
+
+function togglePlay() {
   if (!video) return;
   if (video.paused) {
     video.play();
