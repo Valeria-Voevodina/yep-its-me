@@ -48,31 +48,37 @@
   .space-xl { margin-top: var(--space-24); margin-bottom: var(--space-24); }
 
   .menu-nav {
-    position:   fixed;
-    top:        40px;
-    left:       0;
-    right:      0;
-    z-index:    9998;
-
-    transform:  translateY(-8px);
-    transition: opacity   var(--transition-slow),
-                transform var(--transition-slow);
-
-    padding:    var(--space-6) 16px;
+    position: fixed;
+    top: 40px;
+    left: 0;
+    right: 0;
+    z-index: 9998;
+  
+    transform: translateY(-8px);
+    opacity: 0;
+    pointer-events: none;
+  
+    transition:
+      opacity var(--transition-slow),
+      transform var(--transition-slow),
+      background var(--transition-slow);
+  
+    padding: var(--space-6) 16px;
     backdrop-filter: blur(12px);
   }
 
-  [data-theme="dark"] .menu-nav.active {
-    background: rgba(225, 225, 225, 0.4);
+  [data-theme="dark"] .menu-nav {
+    background: rgba(0, 0, 0, 0.6);
   }
-
-  [data-theme="light"] .menu-nav.active,
-  body:not([data-theme]) .menu-nav.active {
-    background: rgba(0, 0, 0, 0.4);
+  
+  [data-theme="light"] .menu-nav {
+    background: rgba(255, 255, 255, 0.6);
   }
 
   .menu-nav.active {
     transform: translateY(0);
+    opacity: 1;
+    pointer-events: auto;
   }
 
   .menu-nav ul {
