@@ -1,385 +1,456 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <script defer src="https://cloud.umami.is/script.js" data-website-id="56e3e90b-16e7-4781-bd54-c26063cf6668"></script>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>valeria voevodina</title>
-  <link rel="stylesheet" href="style.css">
-  <link rel="icon" href="images/favicon.png" type="image/png">
+  <link rel="icon" href="assets/icons/favicon.svg">
+
+  <link rel="stylesheet" href="css/global.css">
+  <link rel="stylesheet" href="css/index.css">
+  <link rel="stylesheet" href="css/typography.css">
+  <link rel="stylesheet" href="css/layout.css">
+  <link rel="stylesheet" href="css/components.css">
+  <link rel="stylesheet" href="css/themes.css">
+  <link rel="stylesheet" href="css/childhood.css">
+  <link rel="stylesheet" href="css/responsive.css">
+  <link rel="stylesheet" href="css/lightbox.css">
+  <link rel="stylesheet" href="css/video.css">
+
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link 
-    href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" 
-    rel="stylesheet"
-  >
+
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,400;0,600;1,400;1,600&display=swap" rel="stylesheet">
 </head>
 
-<body>
-  <header class="top-menu">
-  <div class="menu-left">VALERIA VOEVODINA</div>
-  <div class="menu-right">
-    <div class="menu-toggle"></div>
-    <nav class="menu-nav">
-      <ul>
-        <li><a href="#about">ABOUT</a></li>
-        <li><a href="#consultations">CONSULTATIONS</a></li>
-        <li><a href="#selected-works">SELECTED WORKS</a></li>
-        <li><a href="#archive">ARCHIVE</a></li>
-        <li><a href="#contacts">CONTACTS</a></li>
-      </ul>
-    </nav>
-  </div>
-  </header>
+<body data-page="index">
 
-  <main>
-    <section id="head" class="wrapper">
-        <div class="top-block">
-            <p class="top-block .left">// yep,</p>
-            <img src="images/portrait.png" alt="portrait image" class="top-block .portrait" />
-            <p class="top-block .right">it’s me :)</p>
-        </div>
-    </section> 
+  <div id="menu-container" data-theme="dark"></div>
 
-    <section id="about" class="wrapper">
-      <div class="dual-column">
-        <div class="left"></div>
-        <div class="node">
-          <p>// ME.v22 </p> <p>[⬤ NODE_01]</p>
-      </div>
-      </div>
-      <div class="dual-column">
-        <div class="left"></div>
-        <div class="right-column">
-            <p> – hi there!
-            <p>apparently, this is a portfolio — <br> the thing that’s supposed to convince everyone of my prOFesSionALIsM.</p>
-            <p>so — welcome. watch the showreel, peek at some projects, text me and order literally anything.</p>
-        </div> 
-      </div>
-      <div class="dual-column">
-        <div class="left"></div>
-        <div class="right-comment">
-        <p>// if you came here for documents, <br> there’s <a class="special-link" href="valeria voevodina. cv.pdf"> my CV </a>somewhere here too.</p>
-      </div>
-      </div>
-    </section>
+  <section data-theme="light">
 
-    <section id="consultations" class="wrapper">
-      <div class="dual-column">
-        <div class="left"></div>
-        <div class="node">
-          <p>// ME.v22 </p> <p>[⬤ NODE_02]</p>
-      </div>
-      </div>
-      <div class="dual-column">
-        <div class="left"></div>
-        <div class="right-column">
-             <p>– by the way, i also do consultations: <br> 
-                 would you like a tip? need a second opinion, or just someone to talk to?</p>
-        </div> 
-      </div>
-      <div class="dual-column">
-        <div class="left"></div>
-        <div class="right-comment">
-          <p> // drop a message — <br> we’ll figure it out.</p>
-      </div>
-    </section>
-
-    <section class="video-container">
-      <video id="myVideo" src="showreel. valeria voevodina.2023.mp4" poster="cover.jpg" muted loop playsinline></video>
-        
-      <div class="controls">
-          <button id="muteUnmute" class="control-btn">🔇</button>
-          <button id="playPause" class="control-btn">⏸</button>
-          <button id="fullscreen" class="control-btn">⛶</button>
-      </div>
-    </section>
-
-    <section id="portfolio" class="wrapper">
-      <div class="dual-column">
-        <div class="left"></div>
-        <div class="node">
-          <p>// ME.v22 </p> <p>[⬤ NODE_03]</p>
-      </div>
-      </div>
-      <div class="dual-column">
-        <div class="left"></div>
-        <div class="right-column">
-            <p>– if you still have doubts, <br> look at my portfolio. </p>
-            <p>selected works — the shiniest bits.</p>
-            <p>archive — the rest of the story: <br> older projects, experiments, unfinished ideas.<br>
-            (not everything has to be perfect to matter and be remembered).</p>
-        </div> 
-      </div>
-      <div class="dual-column">
-        <div class="left"></div>
-        <div class="right-comment">
-          <p>// come back sometimes — <br> i keep adding new things when life allows.</p>
-      </div>
-    </section>
-
-    <h1>SELECTED WORKS</h1>
-
-    <div id="selected-works" class="fullwidth slideshow">
-     
-      <a class="arrow left" data-direction="left">
-        <img src="images/arrow.svg" alt="Previous Slide">
-      </a>
-      <a class="arrow right" data-direction="right">
-        <img src="images/arrow.svg" alt="Next Slide">
-      </a>
-
-      <div class="wrapper">
-        
-        <a class="arrow up" data-direction="up">
-          <img src="images/arrow.svg" alt="Previous Project">
-        </a>
-        
-        <div class="slideshow-container">
-        </div>
-
-        <a class="arrow down" data-direction="down">
-          <img src="images/arrow.svg" alt="Next Project">
-        </a>
-        
-      </div>
-    </div>
-
-  <h1>ARCHIVE</h1>
-
-  <section id="archive" class="fullwidth">
-
-    <div class="image-grid">
-
-      <div class="grid-item" data-project="44">
-        <img src="превью проекта/превью проекта_44.jpg" alt="Project 44">
-      </div>
-
-      <div class="grid-item" data-project="43">
-        <img src="превью проекта/превью проекта_43.jpg" alt="Project 43">
-      </div>
-
-      <div class="grid-item" data-project="42">
-        <img src="превью проекта/превью проекта_42.jpg" alt="Project 42">
-      </div>
-
-      <div class="grid-item" data-project="41">
-        <img src="превью проекта/превью проекта_41.jpg" alt="Project 41">
-      </div>
-
-      <div class="grid-item" data-project="40">
-        <img src="превью проекта/превью проекта_40.jpg" alt="Project 40">
-      </div>
-
-      <div class="grid-item" data-project="39">
-        <img src="превью проекта/превью проекта_39.jpg" alt="Project 39">
-      </div>
-
-      <div class="grid-item" data-project="38">
-        <img src="превью проекта/превью проекта_38.jpg" alt="Project 38">
-      </div>
-
-      <div class="grid-item" data-project="37">
-        <img src="превью проекта/превью проекта_37.jpg" alt="Project 37">
-      </div>
-
-      <div class="grid-item" data-project="36">
-        <img src="превью проекта/превью проекта_36.jpg" alt="Project 36">
-      </div>
-
-      <div class="grid-item" data-project="35">
-        <img src="превью проекта/превью проекта_35.jpg" alt="Project 35">
-      </div>
-
-      <div class="grid-item" data-project="34">
-        <img src="превью проекта/превью проекта_34.jpg" alt="Project 34">
-      </div>
-
-      <div class="grid-item" data-project="33">
-        <img src="превью проекта/превью проекта_33.jpg" alt="Project 33">
-      </div>
-
-      <div class="grid-item" data-project="32">
-        <img src="превью проекта/превью проекта_32.jpg" alt="Project 32">
-      </div>
-
-      <div class="grid-item" data-project="31">
-        <img src="превью проекта/превью проекта_31.jpg" alt="Project 31">
-      </div>
-
-      <div class="grid-item" data-project="30">
-        <img src="превью проекта/превью проекта_30.jpg" alt="Project 30">
-      </div>
-
-      <div class="grid-item" data-project="29">
-        <img src="превью проекта/превью проекта_29.jpg" alt="Project 29">
-      </div>
-
-      <div class="grid-item" data-project="28">
-        <img src="превью проекта/превью проекта_28.jpg" alt="Project 28">
-      </div>
-
-      <div class="grid-item" data-project="27">
-        <img src="превью проекта/превью проекта_27.jpg" alt="Project 27">
-      </div>
-
-      <div class="grid-item" data-project="26">
-        <img src="превью проекта/превью проекта_26.jpg" alt="Project 26">
-      </div>
-
-      <div class="grid-item" data-project="25">
-        <img src="превью проекта/превью проекта_25.jpg" alt="Project 25">
-      </div>
-
-      <div class="grid-item" data-project="24">
-        <img src="превью проекта/превью проекта_24.jpg" alt="Project 24">
-      </div>
-
-      <div class="grid-item" data-project="23">
-        <img src="превью проекта/превью проекта_23.jpg" alt="Project 23">
-      </div>
-
-      <div class="grid-item" data-project="22">
-        <img src="превью проекта/превью проекта_22.jpg" alt="Project 22">
-      </div>
-
-      <div class="grid-item" data-project="21">
-        <img src="превью проекта/превью проекта_21.jpg" alt="Project 21">
-      </div>
-    
-      <div class="grid-item" data-project="20">
-        <img src="превью проекта/превью проекта_20.jpg" alt="Project 20">
-      </div>
-
-      <div class="grid-item" data-project="19">
-        <img src="превью проекта/превью проекта_19.jpg" alt="Project 19">
-      </div>
-
-      <div class="grid-item" data-project="18">
-        <img src="превью проекта/превью проекта_18.jpg" alt="Project 18">
-      </div>
-
-      <div class="grid-item" data-project="17">
-        <img src="превью проекта/превью проекта_17.jpg" alt="Project 17">
-      </div>
-
-      <div class="grid-item" data-project="16">
-        <img src="превью проекта/превью проекта_16.jpg" alt="Project 16">
-      </div>
-
-      <div class="grid-item" data-project="15">
-        <img src="превью проекта/превью проекта_15.jpg" alt="Project 15">
-      </div>
-
-      <div class="grid-item" data-project="14">
-        <img src="превью проекта/превью проекта_14.jpg" alt="Project 14">
-      </div>
-
-      <div class="grid-item" data-project="13">
-        <img src="превью проекта/превью проекта_13.jpg" alt="Project 13">
-      </div>
-
-      <div class="grid-item" data-project="12">
-        <img src="превью проекта/превью проекта_12.jpg" alt="Project 12">
-      </div>
-
-      <div class="grid-item" data-project="11">
-        <img src="превью проекта/превью проекта_11.jpg" alt="Project 11">
-      </div>
-
-      <div class="grid-item" data-project="10">
-        <img src="превью проекта/превью проекта_10.jpg" alt="Project 10">
-      </div>
-
-      <div class="grid-item" data-project="9">
-        <img src="превью проекта/превью проекта_09.jpg" alt="Project 09">
-      </div>
-
-      <div class="grid-item" data-project="8">
-        <img src="превью проекта/превью проекта_08.jpg" alt="Project 08">
-      </div>
-
-      <div class="grid-item" data-project="7">
-        <img src="превью проекта/превью проекта_07.jpg" alt="Project 07">
-      </div>
-
-      <div class="grid-item" data-project="6">
-        <img src="превью проекта/превью проекта_06.jpg" alt="Project 06">
-      </div>
-
-      <div class="grid-item" data-project="5">
-        <img src="превью проекта/превью проекта_05.jpg" alt="Project 05">
-      </div>
-
-      <div class="grid-item" data-project="4">
-        <img src="превью проекта/превью проекта_04.jpg" alt="Project 04">
-      </div>
-
-      <div class="grid-item" data-project="3">
-        <img src="превью проекта/превью проекта_03.jpg" alt="Project 03">
-      </div>
-
-      <div class="grid-item" data-project="2">
-        <img src="превью проекта/превью проекта_02.jpg" alt="Project 02">
-      </div>
-
-      <div class="grid-item" data-project="1">
-        <img src="превью проекта/превью проекта_01.jpg" alt="Project 01">
-      </div>
-    </div>
-
-    <div class="project" id="active-project" style="display:none;"></div>
-
-</section>
-
-  <section id="contacts" class="wrapper">
-    <div class="dual-column">
-      <div class="left"></div>
-      <div class="node">
-        <p>// ME.v22 </p> <p>[⬤ NODE_04]</p>
-    </div>
-    </div>
-    <div class="dual-column">
-      <div class="left"></div>
-      <div class="right-column">
-          <p>drop a <a class="special-link" href="https://t.me/valeria_voevodina_01" target="_blank">message</a>.</p>
-          <p>drop a <a class="special-link" href="mailto:valeriavoevodina01@gmail.com" target="_blank">mail</a>.</p>
-          <p>morse code, sign language, pigeon post — whatever works for you.</p>
-      </div>
-    </div>
-    <div class="dual-column">
-      <div class="left"></div>
-      <div class="right-comment">
-        <p>// almost forgot! <br> donate on <a class="special-link" href="https://boosty.to/valeria_voevodina/donate" target="_blank">boosty</a> to help me spend more time making weird things instead of another soulless identity.</p>
+  <section class="grid-4 space-xl">
+    <div class="top-block center-columns">
+      <p class="left">// yep,</p>
+      <img
+        src="assets/media/yep-its-me.png"
+        class="portrait"
+      />
+      <p class="right">it’s me :)</p>
     </div>
   </section>
 
-  </main>
+<section class="grid-4 space-xl">
+  <div class="column-3">
+    <div class="node-id">
+        <p>// ME.v22</p>
+        <p>[ NODE_01 ]</p>
+    </div>
 
-   <hr class="dotted-line"/>
+    <div class="node">
+      <p>– hi there! <br><br>
+        apparently, this is a portfolio — the thing that’s supposed to convince everyone of my prOFesSionALIsM.<br><br>
+        so — welcome. watch the showreel, peek at some projects, text me and order literally anything.
+      </p>
+    </div>
 
-  <footer class="wrapper">
-      <div class="footer-content-container"> 
-          <div class="left">
-            <p>website_version:</p>
-            <p>last_update....:</p>
-            <p>next_update....:</p>
-            <p>owner_status...:</p>
-          </div>
-          <div class="right-comment">
-            <p>2.0.</p>
-            <p>nov 2025.</p>
-            <p>unknown.</p>
-            <p>looking for a job.</p>
-          </div>
-      </div>
-  </footer>
+    <div>
+      <p class="comment">
+        // come back sometimes — <br>
+        i keep adding new things
+      </p>
+    </div>
+    </div>
+  </section>
 
-  <div id="lightbox" class="lightbox">
-    <span class="lightbox-close">&times;</span>
-    <img class="lightbox-content" id="lightbox-img" src="">
+  <div class="video-container fullwidth space-xl">
+    <video src="assets/media/valeria-voevodina-showreel-2023.mp4" loop playsinline></video>
   </div>
 
-  <script src="script.js"></script>
-   
+</div>
+</section>
+</section>
+
+<section id="consultations" class="grid-4 space-xl">
+  <div class="column-3">
+    <div class="node-id">
+      <p>// ME.v22</p>
+      <p>[ NODE_02 ]</p>
+    </div>
+
+    <div class="node">
+        <p>
+          – by the way,<br>
+          i also do consultations! <br><br>
+          would you like a tip? <br>
+          need a second opinion,<br>
+          or just someone to talk to?
+        </p>
+      </div>
+    
+    <div>
+      <p class="comment">
+        // <a href="about-me.html#contacts" class="link-accent">drop a message</a> — <br>
+        we’ll figure it out
+      </p>
+    </div>
+  </div>
+</section>
+
+<section id="archive" class="fullwidth space-ultra" data-theme="dark">
+  <div class="separator space-l">
+    <span class="dots"></span>
+      <p class="text--caps">[ archive ]</p>
+    <span class="dots"></span>
+  </div>
+
+  <div class="grid-4 space-m">
+    <div class="grid-4 center-columns">
+      <a href="fun-stuff.html" class="center-columns"><img src="assets/icons/fun-stuff.svg"></a>
+    </div>
+  </div>
+
+  <section id="our-next-project" class="grid-4 space-ultra">
+  <div class="column-3">
+    <div class="node-id">
+      <p>// ME.v22</p>
+      <p>[ NODE_03 ]</p>
+  </div>
+
+  <div class="node space-l">
+      <p>// imagine <a href="our-next-project.html" class="link-accent-dark">our next project</a> here <br><br><br><br><br><br><br><br><br><br><br><br>// now stop imagining<br> and <a href="about-me.html#contacts" class="link-accent-dark">text me!</a>
+      </p>
+    </div>
+    </div>
+  </section>
+
+  <div class="grid-4 space-ultra" data-phase="06">
+    <div class="project-info-header right-half-columns">
+      <p class="text--caps">PHASE 06: freelance</p>
+      <span class="dots"></span>
+      <p class="text--caps">[ 2025–now ]</p>
+    </div>
+    <div class="project-info-meta right-half-columns">
+      <p class="text--caps-base">
+        / <a href="never-give-up-track-cover-modern-bite.html" class="link-plain">“never-give-up”-track-cover-“modern-bite”</a><br>
+        / <a href="terminal.html" class="link-plain">terminal</a><br>
+        / <a href="https://vsbikeeva.works/" class="link-plain">vasilisa-bikeeva-website</a><br>
+        / <a href="https://pbburo.com/" class="link-plain">polina-braginets-website</a><br>
+        / <a href="https://www.figma.com/deck/8q8thwzaZDT3EHtCdZ7p3x/valrayri---paratunova-2-%D0%B2%D0%B0%D1%80%D0%B8%D0%B0%D0%BD%D1%82?node-id=2043-349&t=WaBhPW4Me5jFKa4C-1&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1" class="link-plain">valrayri-and-paralunova-presentation</a> <br>
+      </p>
+    </div>
+  </div>
+
+    <div class="grid-4 space-s">
+      <a href="https://vsbikeeva.works/" class="left-half-columns">
+        <img src="project-assets/previews/vasilisa-bikeeva-website.jpeg"></a>
+      <a href="terminal.html" class="column-3">
+        <img src="project-assets/terminal/preview.jpeg"></a>
+      <a href="never-give-up-track-cover-modern-bite.html" class="column-4">
+        <img src="project-assets/never-give-up/never-give-up-cover.jpeg"></a>
+      <a href="https://pbburo.com/" class="left-half-columns">
+        <img src="project-assets/previews/pb-buro-website.png"></a>
+      <a href="https://www.figma.com/deck/8q8thwzaZDT3EHtCdZ7p3x/valrayri---paratunova-2-%D0%B2%D0%B0%D1%80%D0%B8%D0%B0%D0%BD%D1%82?node-id=2043-349&t=WaBhPW4Me5jFKa4C-1&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1" class="right-half-columns">
+        <img src="project-assets/previews/valrayri&paralunova-presentation.jpg"></a>
+    </div>
+
+  <div class="grid-4 space-ultra" data-phase="05.5">
+    <div class="project-info-header right-half-columns">
+      <p class="text--caps">PHASE 05.5: diploma</p>
+      <span class="dots"></span>
+      <p class="text--caps">[ 2024–2025 ]</p>
+    </div>
+    <div class="project-info-meta right-half-columns">
+      <p class="text--caps-base">
+        / <a href="graphic-design-degree-show-2025.html" class="link-plain">graphic-design-degree-show</a> <br>
+        / [ memory ] core-system-artefact <br>
+        / <a href="project-assets/diploma/01-output.pdf" class="link-plain">[ archive ] 01-output</a> <br>
+        / <a href="project-assets/diploma/02-output.pdf" class="link-plain">[ archive ] 02-output</a> <br>
+        / <a href="project-assets/diploma/03-output.pdf" class="link-plain">[ archive ] 03-output</a> <br>
+        / <a href="project-assets/diploma/04-output.pdf" class="link-plain">[ archive ] 04-output</a> <br>
+        / <a href="https://valeria-voevodina.notion.site/process-book-1e3aa300dc72804c86f6fff0efce3d2a#1ffaa300dc728000b5a9e2c3f74f8777" class="link-plain">[ documentation ] dev-log</a> <br>
+        / <a href="project-assets/diploma/01-process-log.pdf" class="link-plain">[ archive ] 01-process-log</a> <br>
+        / <a href="project-assets/diploma/02-process-log.pdf" class="link-plain">[ archive ] 02-process-log</a> <br>
+        / <a href="project-assets/diploma/03-process-log.pdf" class="link-plain">[ archive ] 03-process-log</a> <br>
+        / <a href="project-assets/diploma/04-process-log.pdf" class="link-plain">[ archive ] 04-process-log</a> <br>
+        / <a href="https://deziiign.com/project/6788221eb745470ea85be36f5b318345" class="link-plain">read-about-the-books</a><br>
+      </p>
+    </div>
+  </div>
+
+  <div class="grid-4 space-xl">
+    <a href="graphic-design-degree-show-2025.html" class="center-columns">
+      <img src="project-assets/graphic-design-degree-show/o-02.JPG">
+    </a>
+  </div>
+  
+  <div class="diploma-grid space-ultra">
+    <a href="project-assets/diploma/core-system-artefact.pdf" class="diploma-side"> 
+      <img
+        src="project-assets/diploma/book-covers/core-system-artefact-cover.jpeg"
+      ></a>
+
+    <div class="diploma-center">
+
+      <a href="project-assets/diploma/01-process-log.pdf" class="diploma-book">
+        <img src="project-assets/diploma/book-covers/01-process-log-cover.jpeg"></a>
+  
+      <a href="project-assets/diploma/02-process-log.pdf" class="diploma-book">
+        <img src="project-assets/diploma/book-covers/02-process-log-cover.jpeg"></a>
+  
+      <a href="project-assets/diploma/03-process-log.pdf" class="diploma-book"> 
+        <img src="project-assets/diploma/book-covers/03-process-log-cover.jpeg"></a>
+
+      <a href="project-assets/diploma/04-process-log.pdf" class="diploma-book">
+        <img src="project-assets/diploma/book-covers/04-process-log-cover.jpeg"></a>
+
+      <a href="project-assets/diploma/01-output.pdf" class="diploma-book">
+        <img src="project-assets/diploma/book-covers/01-output-cover.jpeg"></a>
+
+      <a href="project-assets/diploma/02-output.pdf" class="diploma-book">
+        <img src="project-assets/diploma/book-covers/02-output-cover.jpeg"></a>
+
+      <a href="project-assets/diploma/03-output.pdf" class="diploma-book">
+        <img src="project-assets/diploma/book-covers/03-output-cover.jpeg"></a>
+    
+      <a href="project-assets/diploma/04-output.pdf" class="diploma-book">
+        <img src="project-assets/diploma/book-covers/04-output-cover.jpeg"></a>
+
+    </div>
+
+    <a href="https://valeria-voevodina.notion.site/process-book-1e3aa300dc72804c86f6fff0efce3d2a#1ffaa300dc728000b5a9e2c3f74f8777" class="diploma-side"> 
+      <img class="image--bordered"
+        src="project-assets/diploma/book-covers/dev-log-cover.svg"
+      ></a>
+  </div>
+
+  <div class="grid-4 space-ultra">
+    <a href="https://deziiign.com/project/6788221eb745470ea85be36f5b318345">
+      <div class="stamp center-columns">
+        <img src="assets/icons/stamp.svg" class="stamp-shape">
+        <span class="stamp-text">read-about-the-books </span></a>
+    </div>
+  </div>
+
+  <div class="grid-4 space-ultra" data-phase="05.4">
+    <div class="project-info-header right-half-columns">
+      <p class="text--caps">PHASE 05.4: BA2</p>
+      <span class="dots"></span>
+      <p class="text--caps">[ 2024–2025 ]</p>
+    </div>
+    <div class="project-info-meta right-half-columns">
+      <p class="text--caps-base">
+        41. WARMING-UP <br> 
+        42. BREAKING-THE-FOURTH-WALL <br> 
+        43. SHOWREEL <br> 
+        44. PACKAGING-SOUL-TRANSFER</p>
+    </div>
+  </div>
+  <div class="image-grid-bhsad phase-grid-bhsad space-xs" data-phase="05.4"></div>
+
+  <div class="grid-4 space-xs" data-phase="05.3">
+    <div class="project-info-header right-half-columns">
+      <p class="text--caps">PHASE 05.3: BA2</p>
+      <span class="dots"></span>
+      <p class="text--caps">[ 2023–2024 ]</p>
+    </div>
+    <div class="project-info-meta right-half-columns">
+        <p class="text--caps-base"> 
+          27. CRAZY-SCIENTIST-LABORATORY <br> 
+          28. EXPERIMENTAL-NOTATION <br> 
+          29. HAPPY-ACCIDENTS <br> 
+          30. FORBES-EDUCATION-MAGAZINE <br> 
+          31. TYPOPHOTO <br> 
+          32. STOP-GO <br> 
+          33. MOOD-SWINGS <br> 
+          34. MAKE-A-PORTFOLIO <br> 
+          35. ITS-A-MATCH <br> 
+          36. VDNX-POSTERS <br> 
+          37. TREASURE-SEEKERS <br> 
+          38. FINE-ART-GRADUATION-CATALOGUE <br> 
+          39. DYNAMIC-LETTERFORMS <br> 
+          40. INTERNSHIP-ENDY </p>
+      </div>
+  </div>
+  <div class="image-grid-bhsad phase-grid-bhsad space-xs" data-phase="05.3"></div>
+
+  <div class="grid-4 space-xs" data-phase="05.2">
+    <div class="project-info-header right-half-columns">
+      <p class="text--caps">PHASE 05.2: BA1</p>
+      <span class="dots"></span>
+      <p class="text--caps">[ 2022–2023 ]</p>
+    </div>
+     <div class="project-info-meta right-half-columns">
+        <p class="text--caps-base"> 
+          15. TIME-VS-SPACE <br> 
+          16. LUCKY-NUMBERS <br> 
+          17. WORD+IMAGE <br> 
+          18. INFRA-ORDINARIE <br> 
+          19. TEXT–PARAGRAPH <br> 
+          20. RECORD-COVER <br> 
+          21. FANZINE <br> 
+          22. TO-TRANSLATE <br> 
+          23. KIND-OF MAGIC <br> 
+          24. BASIC-OPERATIONS <br> 
+          25. IF-ELSE-THEN <br> 
+          26. TALENT-SHOW </p>
+      </div>
+  </div>
+  <div class="image-grid-bhsad phase-grid-bhsad space-xs" data-phase="05.2"></div>
+
+  <div class="grid-4 space-xs" data-phase="05.1">
+    <div class="project-info-header right-half-columns">
+      <p class="text--caps">PHASE 05.1: FAD</p>
+      <span class="dots"></span>
+      <p class="text--caps">[ 2021–2022 ]</p>
+    </div>
+    <div class="project-info-meta right-half-columns">
+      <p class="text--caps-base"> 
+        01. OBSERVATION-TRANSLATION-INVENTION <br> 
+        02. SKIN-AND-BONE <br> 
+        03. FABRICATION-FOR-THE-LENS <br> 
+        04. WHERE-WORLDS-COLLIDE <br> 
+        05. TEXT-AND-LANGUAGE <br> 
+        06. PERCENT <br> 
+        07. X <br> 
+        08. -> <br> 
+        09. YELLOW-CIRCLE <br> 
+        10. ONE <br> 
+        11. FISH <br> 
+        12. DEVELOPING-INDEPENDENCE <br> 
+        13. <a href="project.html?id=13-HOW-TO-DRAW-MUSIC" class="link-plain">HOW-TO-DRAW-MUSIC</a><br> 
+        14. SECRET-PROJECT </p>
+    </div>
+  </div>
+  <div class="image-grid-bhsad phase-grid-bhsad space-xs" data-phase="05.1"></div>
+
+  <div class="grid-4 space-ultra" data-phase="04">
+    <div class="project-info-header right-half-columns">
+      <p class="text--caps">PHASE 04: lockdown</p>
+      <span class="dots"></span>
+      <p class="text--caps">[ 2021 ]</p>
+    </div>
+    <div class="project-info-meta right-half-columns">
+      <p class="text--caps-base">
+      / <a href="video-salon-website.html" class="link-plain">video-salon-website-inspired-by-"vnutri-lapenko”</a>  <br> 
+      / <a href="project-assets/summer-school-logo.pdf" class="link-plain">summer-school-logo</a> <br> 
+      / <a href="golden-ring.html" class="link-plain">"pora-valit'"-"golden-ring"-poster</a> <br> 
+      / <a href="(un)censored-stickers.html" class="link-plain">(un)censored-stickers</a></p>
+    </div>
+  </div>
+
+  <div class="grid-4 lockdown-grid space-m">
+    <a href="project-assets/summer-school-logo.pdf" class="lockdown-item">
+      <img src="project-assets/previews/summer-school-logo.svg">
+    </a>
+
+    <a href="video-salon-website.html" class="lockdown-item">
+      <img src="project-assets/video-salon-website/preview.png">
+    </a>
+
+    <a href="golden-ring.html" class="lockdown-item">
+      <img src="project-assets/golden-ring/preview.jpeg">
+    </a>
+
+    <a href="(un)censored-stickers.html" class="lockdown-item">
+      <img src="project-assets/(un)censored-stickers/censored/cap.png">
+    </a>
+  </div>
+
+  <div class="grid-4 space-ultra" data-phase="03">
+    <div class="project-info">
+      <div class="project-info-header right-half-columns">
+        <p class="text--caps">PHASE 03: art collage. PHU</p>
+        <span class="dots"></span>
+        <p class="text--caps">[ 2019–2021 ]</p>
+      </div>
+      <div class="project-info-meta">
+        <p class="text--muted">
+            items-status:<br>
+            cause.......:<br>
+          </p>
+
+        <p class="text--caps-base">
+            skipped<br>
+            failed-to-document<br>
+          </p>
+      </div>
+    </div>
+  </div>
+  <div class="space-m"><img src="project-assets/previews/phu-paintings.jpg" >
+  </div>
+  
+  <div class="grid-4 space-ultra">
+    <div class="project-info">
+      <div class="project-info-header right-half-columns">
+        <p class="text--caps">PHASE 02: art school</p>
+        <span class="dots"></span>
+        <p class="text--caps">[ 2008–2019 ]</p>
+      </div>
+
+      <div class="project-info-meta">
+        <p class="text--muted">
+            items-status:<br>
+            cause.......:<br>
+          </p>
+
+        <p class="text--caps-base">
+            skipped<br>
+            failed-to-document<br>
+          </p>
+      </div>
+    </div>
+  </div>
+  </div>
+
+  <div class="last-section grid-4 space-ultra" data-phase="01">
+    <div class="right-half-columns">
+      <p class="text--caps">PHASE 01: childhood</p>
+      <span class="dots"></span>
+      <p class="text--caps">[ 2004–2009 ]</p>
+    </div>
+  </div>
+  
+  <div class="phase-grid-childhood space-m"></div>
+  </section>
+
+  <div class="grid-4 space-xl">
+    <div class="project-info">
+      <div class="project-info">
+        <div class="project-info-header">
+            <p class="text--caps"> / footer</p>
+            <span class="dots"></span>
+        </div>
+
+        <div class="project-info-meta">
+            <p class="text--muted">
+            website_version:<br><br>
+            last_update....:<br><br>
+            next_update....:<br><br>
+            owner_status...:<br><br>
+          </p>
+
+          <p class="text--normal">
+              3.0<br><br>
+              may 2026<br><br>
+              unknown<br><br>
+              not-defined<br><br>
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="bottom-bar-container" data-theme="dark"></div>
+
+  <script src="js/theme.js"></script>
+  <script src="js/menu.js"></script>
+  <script src="js/video.js"></script>
+  <script src="js/bottom-bar.js"></script>
+  <script src="js/image.js"></script> 
+  <script src="js/bhsad-archive.js"></script>
+  <script src="js/childhood-archive.js"></script>
+
 </body>
 </html>

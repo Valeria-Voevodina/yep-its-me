@@ -1,0 +1,79 @@
+h1, h2 {
+  font-family: var(--font-display);
+  text-align:  center;
+}
+
+h1 { font-size: clamp(2rem,   3.5vw + 0.8rem, 3.5rem); }
+h2 { font-size: clamp(1.6rem, 2.5vw + 0.4rem, 2.4rem); }
+
+h3 {
+  font-family:    var(--font-mono);
+  font-size:      var(--text-base);
+  font-weight:    600;
+  text-transform: uppercase;
+}
+
+p {
+  font-family: var(--font-mono);
+  font-size:   var(--text-base);
+  margin:      0;
+}
+
+.text         { font-family: var(--font-mono); font-size: var(--text-base); }
+.text--sm     { font-size: var(--text-sm); }
+.text--muted  { color: var(--muted); }
+.text--italic { font-style: italic; font-weight: 400; font-family: var(--font-mono); }
+.text--invert { color: var(--white); }
+
+.text--caps {
+  font-weight:    600;
+  text-transform: uppercase;
+  font-size:      var(--text-base);
+}
+
+.text--caps-base {
+  font-size:      var(--text-base);
+  text-transform: uppercase;
+  color:          var(--muted);
+}
+
+.link-accent {
+  color:           var(--accent);
+  text-decoration: none;
+}
+.link-accent:hover {
+  text-decoration: underline;
+  text-underline-offset: 0.3em;
+}
+
+.link-accent-dark {
+  color:           var(--accent);
+  text-decoration: none;
+  opacity:         0.85;
+}
+
+.link-accent-dark:hover {
+  opacity:         1;
+  text-decoration: underline;
+  text-underline-offset: 0.3em;
+}
+
+.link-plain {
+  color:           inherit;
+  text-decoration: none;
+}
+.link-plain:hover {
+  text-decoration: underline;
+  text-underline-offset: 0.3em;
+}
+
+a.selected-text {
+  background: var(--black);
+  color:      var(--white);
+  padding:    0.05em 0.25em;
+}
+
+.overlay-text {
+  color: inherit;
+  mix-blend-mode: difference;
+}

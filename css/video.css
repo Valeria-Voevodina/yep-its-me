@@ -1,0 +1,67 @@
+.video-container {
+  position: relative;
+  width:    100%;
+  overflow: hidden;
+  display:  block;
+}
+
+video {
+  width:      100%;
+  height:     auto;
+  display:    block;
+  object-fit: cover;
+  cursor:     pointer;
+}
+
+.controls {
+  position:  absolute;
+  top:       50%;
+  left:      50%;
+  transform: translate(-50%, -50%);
+  z-index:   10;
+
+  display:     flex;
+  align-items: center;
+  gap:         var(--space-4);
+
+  opacity:        0;
+  pointer-events: none;
+  transition:     opacity var(--transition-slow);
+}
+
+.video-container:hover .controls {
+  opacity:        1;
+  pointer-events: auto;
+}
+
+.control-btn {
+  width:  var(--space-16);
+  height: var(--space-16);
+
+  display:         flex;
+  align-items:     center;
+  justify-content: center;
+
+  color:           var(--white);
+  background:      rgba(0, 0, 0, 0.45);
+  border:          1px solid rgba(255, 255, 255, 0.6);
+  backdrop-filter: blur(4px);
+
+  cursor:     pointer;
+  transition: background    var(--transition-fast),
+              border-color  var(--transition-fast),
+              color         var(--transition-fast);
+}
+
+.control-btn svg {
+  width:  1em;
+  height: 1em;
+  display: block;
+  flex-shrink: 0;
+}
+
+.control-btn:hover {
+  background:   rgba(255, 255, 255, 0.15);
+  border-color: var(--accent);
+  color:        var(--accent);
+}

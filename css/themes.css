@@ -1,0 +1,94 @@
+body,
+[data-theme="light"] {
+  background: var(--white);
+  color:      var(--black);
+}
+
+[data-theme="light"] .top-menu {
+  color: var(--black);
+}
+
+[data-theme="light"] .bottom-bar {
+  color:            var(--black);
+  border-top-color: rgba(0, 0, 0, 0.1);
+}
+
+[data-theme="light"] .menu-toggle {
+  background: var(--black);
+}
+
+[data-theme="light"] .menu-toggle.active {
+  background:   transparent;
+  border-color: var(--black);
+}
+
+[data-theme="light"] .node {
+  border-color: var(--black);
+}
+
+[data-theme="light"] .dotted-line {
+  border-top-color: var(--black);
+}
+
+[data-theme="dark"] {
+  background: var(--black);
+  color:      var(--white);
+}
+
+[data-theme="dark"] .top-menu {
+  color: var(--white);
+}
+
+[data-theme="dark"] .bottom-bar {
+  color:            var(--white);
+  border-top-color: rgba(255, 255, 255, 0.1);
+}
+
+[data-theme="dark"] .menu-toggle {
+  background: var(--white);
+}
+
+[data-theme="dark"] .menu-toggle.active {
+  background:   transparent;
+  border-color: var(--white);
+}
+
+[data-theme="dark"] .node {
+  border-color: var(--white);
+}
+
+[data-theme="dark"] .dotted-line {
+  border-top-color: var(--white);
+}
+
+[data-theme="dark"] .text--muted {
+  color: rgba(255, 255, 255, 0.45);
+}
+
+[data-theme="dark"] .tag {
+  border-color: var(--white);
+  color:        var(--white);
+}
+
+[data-theme="dark"] .tag:hover {
+  background: rgba(255, 255, 255, 0.1);
+}
+
+[data-theme="dark"] .tag.active {
+  background: var(--white);
+  color:      var(--black);
+}
+
+[data-theme="dark"] .dots {
+  border-bottom-color: var(--white);
+}
+
+[data-theme="dark"] footer.bottom-bar {
+  border-top-color: rgba(255, 255, 255, 0.15);
+}
+
+body {
+  transition:
+    background-color var(--transition-slow),
+    color            var(--transition-slow);
+}

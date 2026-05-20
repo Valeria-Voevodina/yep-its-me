@@ -1,0 +1,595 @@
+[
+  {
+    "id": "01-OBSERVATION-TRANSLATION-INVENTION",
+    "title": "01. OBSERVATION-TRANSLATION-INVENTION",
+    "phase": "05.1",
+    "layout": "double-image-pdf",
+    "assets": {
+      "preview": "project-assets/bhsad/preview-cards/p-01.jpg",
+      "photos": [
+        "project-assets/bhsad/preview-cards/p-01.jpg",
+        "project-assets/bhsad/stat-cards/s-01.png"
+      ],
+      "pdf": "project-assets/bhsad/pdf/01-OBSERVATION-TRANSLATION-INVENTION.pdf"
+    }
+  },
+  {
+    "id": "02-SKIN-AND-BONE",
+    "title": "02. SKIN-AND-BONE",
+    "phase": "05.1",
+    "assets": {
+      "preview": "project-assets/bhsad/preview-cards/p-02.jpg",
+      "photos": [
+        "project-assets/bhsad/preview-cards/p-02.jpg",
+        "project-assets/bhsad/stat-cards/s-02.png"
+      ],
+      "pdf": "project-assets/bhsad/pdf/01-OBSERVATION-TRANSLATION-INVENTION.pdf"
+    }
+  },
+  {
+    "id": "03-FABRICATION-FOR-THE-LENS",
+    "title": "03. FABRICATION-FOR-THE-LENS",
+    "phase": "05.1",
+    "layout": "double-image-pdf",
+    "assets": {
+      "preview": "project-assets/bhsad/preview-cards/p-03.jpg",
+      "photos": [
+        "project-assets/bhsad/preview-cards/p-03.jpg",
+        "project-assets/bhsad/stat-cards/s-03.png"
+      ],
+      "pdf": "project-assets/bhsad/pdf/03-FABRICATION-FOR-THE-LENS.pdf"
+    }
+  },
+  {
+    "id": "04-WHERE-WORLDS-COLLIDE",
+    "title": "04. WHERE-WORLDS-COLLIDE",
+    "phase": "05.1",
+    "assets": {
+      "preview": "project-assets/bhsad/preview-cards/p-04.jpg",
+      "photos": [
+        "project-assets/bhsad/preview-cards/p-04.jpg",
+        "project-assets/bhsad/stat-cards/s-04.png"
+      ],
+      "pdf": "project-assets/bhsad/pdf/04-WHERE-WORLDS-COLLIDE.pdf"
+    }
+  },
+  {
+    "id": "05-TEXT-AND-LANGUAGE",
+    "title": "05. TEXT-AND-LANGUAGE",
+    "phase": "05.1",
+    "assets": {
+      "preview": "project-assets/bhsad/preview-cards/p-05.jpg",
+      "photos": [
+        "project-assets/bhsad/preview-cards/p-05.jpg",
+        "project-assets/bhsad/stat-cards/s-05.png"
+      ],
+      "pdf": "project-assets/bhsad/pdf/05-TEXT-AND-LANGUAGE.pdf"
+    }
+  },
+  {
+    "id": "06-PERCENT",
+    "title": "06. PERCENT",
+    "phase": "05.1",
+    "assets": {
+      "preview": "project-assets/bhsad/preview-cards/p-06.jpg",
+      "photos": [
+        "project-assets/bhsad/preview-cards/p-06.jpg",
+        "project-assets/bhsad/stat-cards/s-06.png"
+      ],
+      "pdf": "project-assets/bhsad/pdf/06-PERCENT.pdf"
+    }
+  },
+  {
+    "id": "07-X",
+    "title": "07. X",
+    "phase": "05.1",
+    "assets": {
+      "preview": "project-assets/bhsad/preview-cards/p-07.jpg",
+      "photos": [
+        "project-assets/bhsad/preview-cards/p-07.jpg",
+        "project-assets/bhsad/stat-cards/s-07.png"
+      ],
+      "pdf": "project-assets/bhsad/pdf/07-X.pdf"
+    }
+  },
+  {
+    "id": "08–>",
+    "title": "08. –>",
+    "phase": "05.1",
+    "assets": {
+      "preview": "project-assets/bhsad/preview-cards/p-08.jpg",
+      "photos": [
+        "project-assets/bhsad/preview-cards/p-08.jpg",
+        "project-assets/bhsad/stat-cards/s-08.png"
+      ],
+      "pdf": "project-assets/bhsad/pdf/08–>.pdf"
+    }
+  },
+  {
+    "id": "09-YELLOW-CIRCLE",
+    "title": "09. YELLOW-CIRCLE",
+    "phase": "05.1",
+    "assets": {
+      "preview": "project-assets/bhsad/preview-cards/p-09.jpg",
+      "photos": [
+        "project-assets/bhsad/preview-cards/p-09.jpg",
+        "project-assets/bhsad/stat-cards/s-09.png"
+      ],
+      "pdf": "project-assets/bhsad/pdf/09-YELLOW-CIRCLE.pdf"
+    }
+  },
+  {
+    "id": "10-ONE",
+    "title": "10. ONE",
+    "phase": "05.1",
+    "assets": {
+      "preview": "project-assets/bhsad/preview-cards/p-10.jpg",
+      "photos": [
+        "project-assets/bhsad/preview-cards/p-10.jpg",
+        "project-assets/bhsad/stat-cards/s-10.png"
+      ],
+      "pdf": "project-assets/bhsad/pdf/10-ONE.pdf"
+    }
+  },
+  {
+    "id": "11-FISH",
+    "title": "11. FISH",
+    "phase": "05.1",
+    "assets": {
+      "preview": "project-assets/bhsad/preview-cards/p-11.jpg",
+      "photos": [
+        "project-assets/bhsad/preview-cards/p-11.jpg",
+        "project-assets/bhsad/stat-cards/s-11.png"
+      ],
+      "pdf": "project-assets/bhsad/pdf/11-FISH.pdf"
+    }
+  },
+  {
+    "id": "12-DEVELOPING-INDEPENDENCE",
+    "title": "12. DEVELOPING-INDEPENDENCE",
+    "phase": "05.1",
+    "assets": {
+      "preview": "project-assets/bhsad/preview-cards/p-12.jpg",
+      "photos": [
+        "project-assets/bhsad/preview-cards/p-12.jpg",
+        "project-assets/bhsad/stat-cards/s-12.png"
+      ],
+      "pdf": "project-assets/bhsad/pdf/12-DEVELOPING-INDEPENDENCE.pdf"
+    }
+  },
+  {
+    "id": "13-HOW-TO-DRAW-MUSIC",
+    "title": "13. HOW-TO-DRAW-MUSIC",
+    "phase": "05.1",
+    "assets": {
+      "preview": "project-assets/bhsad/preview-cards/p-13.jpg",
+      "photos": [
+        "project-assets/bhsad/preview-cards/p-13.jpg",
+        "project-assets/bhsad/stat-cards/s-13.png"
+      ],
+      "pdf": "project-assets/bhsad/pdf/13-HOW-TO-DRAW-MUSIC.pdf"
+    }
+  },
+  {
+    "id": "14-SECRET-PROJECT",
+    "title": "14. SECRET-PROJECT",
+    "phase": "05.1",
+    "assets": {
+      "preview": "project-assets/bhsad/preview-cards/p-14.jpg",
+      "photos": [
+        "project-assets/bhsad/preview-cards/p-14.jpg",
+        "project-assets/bhsad/stat-cards/s-14.png"
+      ],
+      "pdf": "project-assets/bhsad/pdf/14-SECRET-PROJECT.pdf"
+    }
+  },
+
+
+
+
+
+
+  {
+    "id": "15-TIME-VS-SPACE",
+    "title": "15. TIME-VS-SPACE",
+    "phase": "05.2",
+    "assets": {
+      "preview": "project-assets/bhsad/preview-cards/p-15.jpg",
+      "photos": [
+        "project-assets/bhsad/preview-cards/p-15.jpg",
+        "project-assets/bhsad/stat-cards/s-15.png"
+      ],
+      "pdf": "project-assets/bhsad/pdf/15-TIME-VS-SPACE.pdf"
+    }
+  },
+  {
+    "id": "16-LUCKY-NUMBERS",
+    "title": "16. LUCKY-NUMBERS",
+    "phase": "05.2",
+    "assets": {
+      "preview": "project-assets/bhsad/preview-cards/p-16.jpg",
+      "photos": [
+        "project-assets/bhsad/preview-cards/p-16.jpg",
+        "project-assets/bhsad/stat-cards/s-16.png"
+      ],
+      "pdf": "project-assets/bhsad/pdf/16-LUCKY-NUMBERS.pdf"
+    }
+  },
+  {
+    "id": "17-WORD+IMAGE",
+    "title": "17. WORD+IMAGE",
+    "phase": "05.2",
+    "assets": {
+      "preview": "project-assets/bhsad/preview-cards/p-17.jpg",
+      "photos": [
+        "project-assets/bhsad/preview-cards/p-17.jpg",
+        "project-assets/bhsad/stat-cards/s-17.png"
+      ],
+      "pdf": "project-assets/bhsad/pdf/17-WORD+IMAGE.pdf"
+    }
+  },
+  {
+    "id": "18-INFRA-ORDINARIE",
+    "title": "18. INFRA-ORDINARIE",
+    "phase": "05.2",
+    "assets": {
+      "preview": "project-assets/bhsad/preview-cards/p-18.jpg",
+      "photos": [
+        "project-assets/bhsad/preview-cards/p-18.jpg",
+        "project-assets/bhsad/stat-cards/s-18.png"
+      ],
+      "pdf": "project-assets/bhsad/pdf/18-INFRA-ORDINARIE.pdf"
+    }
+  },
+  {
+    "id": "19-TEXT–PARAGRAPH",
+    "title": "19. TEXT–PARAGRAPH",
+    "phase": "05.2",
+    "assets": {
+      "preview": "project-assets/bhsad/preview-cards/p-19.jpg",
+      "photos": [
+        "project-assets/bhsad/preview-cards/p-19.jpg",
+        "project-assets/bhsad/stat-cards/s-19.png"
+      ],
+      "pdf": "project-assets/bhsad/pdf/19-TEXT–PARAGRAPH.pdf"
+    }
+  },
+  {
+    "id": "20-RECORD-COVER",
+    "title": "20. RECORD-COVER",
+    "phase": "05.2",
+    "assets": {
+      "preview": "project-assets/bhsad/preview-cards/p-20.jpg",
+      "photos": [
+        "project-assets/bhsad/preview-cards/p-20.jpg",
+        "project-assets/bhsad/stat-cards/s-20.png"
+      ],
+      "pdf": "project-assets/bhsad/pdf/20-RECORD-COVER.pdf"
+    }
+  },
+  {
+    "id": "21-FANZINE",
+    "title": "21. FANZINE",
+    "phase": "05.2",
+    "assets": {
+      "preview": "project-assets/bhsad/preview-cards/p-21.jpg",
+      "photos": [
+        "project-assets/bhsad/preview-cards/p-21.jpg",
+        "project-assets/bhsad/stat-cards/s-21.png"
+      ],
+      "pdf": "project-assets/bhsad/pdf/21-FANZINE.pdf"
+    }
+  },
+  {
+    "id": "22-TO-TRANSLATE",
+    "title": "22. TO-TRANSLATE",
+    "phase": "05.2",
+    "assets": {
+      "preview": "project-assets/bhsad/preview-cards/p-22.jpg",
+      "photos": [
+        "project-assets/bhsad/preview-cards/p-22.jpg",
+        "project-assets/bhsad/stat-cards/s-22.png"
+      ],
+      "pdf": "project-assets/bhsad/pdf/22-TO-TRANSLATE.pdf"
+    }
+  },
+  {
+    "id": "23-KIND-OF MAGIC",
+    "title": "23. KIND-OF MAGIC",
+    "phase": "05.2",
+    "assets": {
+      "preview": "project-assets/bhsad/preview-cards/p-23.jpg",
+      "photos": [
+        "project-assets/bhsad/preview-cards/p-23.jpg",
+        "project-assets/bhsad/stat-cards/s-23.png"
+      ],
+      "pdf": "project-assets/bhsad/pdf/23-KIND-OF MAGIC.pdf"
+    }
+  },
+  {
+    "id": "24-BASIC-OPERATIONS",
+    "title": "24. BASIC-OPERATIONS",
+    "phase": "05.2",
+    "assets": {
+      "preview": "project-assets/bhsad/preview-cards/p-24.jpg",
+      "photos": [
+        "project-assets/bhsad/preview-cards/p-24.jpg",
+        "project-assets/bhsad/stat-cards/s-24.png"
+      ],
+      "pdf": "project-assets/bhsad/pdf/24-BASIC-OPERATIONS.pdf"
+    }
+  },
+  {
+    "id": "25-IF-ELSE-THEN",
+    "title": "25. IF-ELSE-THEN",
+    "phase": "05.2",
+    "assets": {
+      "preview": "project-assets/bhsad/preview-cards/p-25.jpg",
+      "photos": [
+        "project-assets/bhsad/preview-cards/p-25.jpg",
+        "project-assets/bhsad/stat-cards/s-25.png"
+      ],
+      "pdf": "project-assets/bhsad/pdf/25-IF-ELSE-THEN.pdf"
+    }
+  },
+  {
+    "id": "26-TALENT-SHOW",
+    "title": "26. TALENT-SHOW",
+    "phase": "05.2",
+    "assets": {
+      "preview": "project-assets/bhsad/preview-cards/p-26.jpg",
+      "photos": [
+        "project-assets/bhsad/preview-cards/p-26.jpg",
+        "project-assets/bhsad/stat-cards/s-26.png"
+      ],
+      "pdf": "project-assets/bhsad/pdf/26-TALENT-SHOW.pdf"
+    }
+  },
+
+
+
+
+
+
+  {
+    "id": "27-CRAZY-SCIENTIST-LABORATORY",
+    "title": "27. CRAZY-SCIENTIST-LABORATORY",
+    "phase": "05.3",
+    "assets": {
+      "preview": "project-assets/bhsad/preview-cards/p-27.jpg",
+      "photos": [
+        "project-assets/bhsad/preview-cards/p-27.jpg",
+        "project-assets/bhsad/stat-cards/s-27.png"
+      ],
+      "pdf": "project-assets/bhsad/pdf/27-CRAZY-SCIENTIST-LABORATORY.pdf"
+    }
+  },
+  {
+    "id": "28-EXPERIMENTAL-NOTATION",
+    "title": "28. EXPERIMENTAL-NOTATION",
+    "phase": "05.3",
+    "assets": {
+      "preview": "project-assets/bhsad/preview-cards/p-28.jpg",
+      "photos": [
+        "project-assets/bhsad/preview-cards/p-28.jpg",
+        "project-assets/bhsad/stat-cards/s-28.png"
+      ],
+      "pdf": "project-assets/bhsad/pdf/28-EXPERIMENTAL-NOTATION.pdf"
+    }
+  },
+  {
+    "id": "29-HAPPY-ACCIDENTS",
+    "title": "29. HAPPY-ACCIDENTS",
+    "phase": "05.3",
+    "assets": {
+      "preview": "project-assets/bhsad/preview-cards/p-29.jpg",
+      "photos": [
+        "project-assets/bhsad/preview-cards/p-29.jpg",
+        "project-assets/bhsad/stat-cards/s-29.png"
+      ],
+      "pdf": "project-assets/bhsad/pdf/29-HAPPY-ACCIDENTS.pdf"
+    }
+  },
+  {
+    "id": "30-FORBES-EDUCATION-MAGAZINE",
+    "title": "30. FORBES-EDUCATION-MAGAZINE",
+    "phase": "05.3",
+    "assets": {
+      "preview": "project-assets/bhsad/preview-cards/p-30.jpg",
+      "photos": [
+        "project-assets/bhsad/preview-cards/p-30.jpg",
+        "project-assets/bhsad/stat-cards/s-30.png"
+      ],
+      "pdf": "project-assets/bhsad/pdf/30-FORBES-EDUCATION-MAGAZINE.pdf"
+    }
+  },
+  {
+    "id": "31-TYPOPHOTO",
+    "title": "31. TYPOPHOTO",
+    "phase": "05.3",
+    "assets": {
+      "preview": "project-assets/bhsad/preview-cards/p-31.jpg",
+      "photos": [
+        "project-assets/bhsad/preview-cards/p-31.jpg",
+        "project-assets/bhsad/stat-cards/s-31.png"
+      ],
+      "pdf": "project-assets/bhsad/pdf/31-TYPOPHOTO.pdf"
+    }
+  },
+  {
+    "id": "32-STOP-GO",
+    "title": "32. STOP-GO",
+    "phase": "05.3",
+    "assets": {
+      "preview": "project-assets/bhsad/preview-cards/p-32.jpg",
+      "photos": [
+        "project-assets/bhsad/preview-cards/p-32.jpg",
+        "project-assets/bhsad/stat-cards/s-32.png"
+      ],
+      "pdf": "project-assets/bhsad/pdf/32-STOP-GO.pdf"
+    }
+  },
+  {
+    "id": "33-MOOD-SWINGS",
+    "title": "33. MOOD-SWINGS",
+    "phase": "05.3",
+    "assets": {
+      "preview": "project-assets/bhsad/preview-cards/p-33.jpg",
+      "photos": [
+        "project-assets/bhsad/preview-cards/p-33.jpg",
+        "project-assets/bhsad/stat-cards/s-33.png"
+      ],
+      "pdf": "project-assets/bhsad/pdf/33-MOOD-SWINGS.pdf"
+    }
+  },
+  {
+    "id": "34-MAKE-A-PORTFOLIO",
+    "title": "34. MAKE-A-PORTFOLIO",
+    "phase": "05.3",
+    "assets": {
+      "preview": "project-assets/bhsad/preview-cards/p-34.jpg",
+      "photos": [
+        "project-assets/bhsad/preview-cards/p-34.jpg",
+        "project-assets/bhsad/stat-cards/s-34.png"
+      ],
+      "pdf": "project-assets/bhsad/pdf/34-MAKE-A-PORTFOLIO.pdf"
+    }
+  },
+  {
+    "id": "35-ITS-A-MATCH",
+    "title": "35. ITS-A-MATCH",
+    "phase": "05.3",
+    "assets": {
+      "preview": "project-assets/bhsad/preview-cards/p-35.jpg",
+      "photos": [
+        "project-assets/bhsad/preview-cards/p-35.jpg",
+        "project-assets/bhsad/stat-cards/s-35.png"
+      ],
+      "pdf": "project-assets/bhsad/pdf/35-ITS-A-MATCH.pdf"
+    }
+  },
+  {
+    "id": "36-VDNX-POSTERS",
+    "title": "36. VDNX-POSTERS",
+    "phase": "05.3",
+    "assets": {
+      "preview": "project-assets/bhsad/preview-cards/p-36.jpg",
+      "photos": [
+        "project-assets/bhsad/preview-cards/p-36.jpg",
+        "project-assets/bhsad/stat-cards/s-36.png"
+      ],
+      "pdf": "project-assets/bhsad/pdf/36-VDNX-POSTERS.pdf"
+    }
+  },
+  {
+    "id": "37-TREASURE-SEEKERS",
+    "title": "37. TREASURE-SEEKERS",
+    "phase": "05.3",
+    "assets": {
+      "preview": "project-assets/bhsad/preview-cards/p-37.jpg",
+      "photos": [
+        "project-assets/bhsad/preview-cards/p-37.jpg",
+        "project-assets/bhsad/stat-cards/s-37.png"
+      ],
+      "pdf": "project-assets/bhsad/pdf/37-TREASURE-SEEKERS.pdf"
+    }
+  },
+  {
+    "id": "38-FINE-ART-GRADUATION-CATALOGUE",
+    "title": "38. FINE-ART-GRADUATION-CATALOGUE",
+    "phase": "05.3",
+    "assets": {
+      "preview": "project-assets/bhsad/preview-cards/p-38.jpg",
+      "photos": [
+        "project-assets/bhsad/preview-cards/p-38.jpg",
+        "project-assets/bhsad/stat-cards/s-38.png"
+      ],
+      "pdf": "project-assets/bhsad/pdf/38-FINE-ART-GRADUATION-CATALOGUE.pdf"
+    }
+  },
+  {
+    "id": "39-DYNAMIC-LETTERFORMS",
+    "title": "39. DYNAMIC-LETTERFORMS",
+    "phase": "05.3",
+    "assets": {
+      "preview": "project-assets/bhsad/preview-cards/p-39.jpg",
+      "photos": [
+        "project-assets/bhsad/preview-cards/p-39.jpg",
+        "project-assets/bhsad/stat-cards/s-39.png"
+      ],
+      "pdf": "project-assets/bhsad/pdf/39-DYNAMIC-LETTERFORMS.pdf"
+    }
+  },
+  {
+    "id": "40-INTERNSHIP-ENDY",
+    "title": "40. INTERNSHIP-ENDY",
+    "phase": "05.3",
+    "assets": {
+      "preview": "project-assets/bhsad/preview-cards/p-40.jpg",
+      "photos": [
+        "project-assets/bhsad/preview-cards/p-40.jpg",
+        "project-assets/bhsad/stat-cards/s-40.png"
+      ],
+      "pdf": "project-assets/bhsad/pdf/40-INTERNSHIP-ENDY.pdf"
+    }
+  },
+
+
+
+
+
+
+
+  {
+    "id": "41-WARMING-UP",
+    "title": "41. WARMING-UP",
+    "phase": "05.4",
+    "assets": {
+      "preview": "project-assets/bhsad/preview-cards/p-41.jpg",
+      "photos": [
+        "project-assets/bhsad/preview-cards/p-41.jpg",
+        "project-assets/bhsad/stat-cards/s-41.png"
+      ],
+      "pdf": "project-assets/bhsad/pdf/41-WARMING-UP.pdf"
+    }
+  },
+  {
+    "id": "42-BREAKING-THE-FOURTH-WALL",
+    "title": "42. BREAKING-THE-FOURTH-WALL",
+    "phase": "05.4",
+    "assets": {
+      "preview": "project-assets/bhsad/preview-cards/p-42.jpg",
+      "photos": [
+        "project-assets/bhsad/preview-cards/p-42.jpg",
+        "project-assets/bhsad/stat-cards/s-42.png"
+      ],
+      "pdf": "project-assets/bhsad/pdf/42-BREAKING-THE-FOURTH-WALL.pdf"
+    }
+  },
+  {
+    "id": "43-SHOWREEL",
+    "title": "43. SHOWREEL",
+    "phase": "05.4",
+    "assets": {
+      "preview": "project-assets/bhsad/preview-cards/p-43.jpg",
+      "photos": [
+        "project-assets/bhsad/preview-cards/p-43.jpg",
+        "project-assets/bhsad/stat-cards/s-43.png"
+      ],
+      "pdf": "project-assets/bhsad/pdf/43-SHOWREEL.pdf"
+    }
+  },
+  {
+    "id": "44-PACKAGING-SOUL-TRANSFER",
+    "title": "44. PACKAGING-SOUL-TRANSFER",
+    "phase": "05.4",
+    "assets": {
+      "preview": "project-assets/bhsad/preview-cards/p-44.jpg",
+      "photos": [
+        "project-assets/bhsad/preview-cards/p-44.jpg",
+        "project-assets/bhsad/stat-cards/s-44.png"
+      ],
+      "pdf": "project-assets/bhsad/pdf/44-PACKAGING-SOUL-TRANSFER.pdf"
+    }
+  }
+]

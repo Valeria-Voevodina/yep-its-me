@@ -1,0 +1,227 @@
+.top-block {
+  display:         flex;
+  justify-content: center;
+  align-items:     center;
+  gap:             0;
+
+  padding-top:    var(--space-6);
+  padding-bottom: var(--space-6);
+}
+
+.top-block .portrait {
+  width: 40%;
+  height: auto;
+  display: block;
+}
+
+.tags {
+  display:   flex;
+  flex-wrap: wrap;
+  gap:       var(--space-3);
+  grid-column: 1 / -1;
+  margin-bottom: var(--space-4);
+}
+
+.tag {
+  font-family:    var(--font-mono);
+  font-size:      var(--text-sm);
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+
+  padding: var(--space-1) var(--space-3);
+
+  background:   transparent;
+  border:       1px solid var(--black);
+  color:        var(--black);
+
+  cursor:     pointer;
+  transition: background var(--transition-base),
+              color      var(--transition-base);
+}
+
+.tag:hover {
+  background: rgba(0, 0, 0, 0.08);
+}
+
+.tag.active {
+  background: var(--black);
+  color:      var(--white);
+}
+
+.tag .count {
+  opacity: 0.5;
+  margin-left: var(--space-1);
+}
+
+.theme-dark .tag {
+  border-color: var(--white);
+  color:        var(--white);
+}
+
+.theme-dark .tag:hover {
+  background: rgba(255, 255, 255, 0.1);
+}
+
+.theme-dark .tag.active {
+  background: var(--white);
+  color:      var(--black);
+}
+
+.grid-item {
+  display: block;
+  overflow: visible;
+}
+
+.grid-item img {
+  width:      100%;
+  height:     100%;
+  object-fit: cover;
+
+  transition: transform var(--transition-fast);
+}
+
+.grid-item:hover img {
+  transform: scale(1.04);
+}
+
+.diploma-grid {
+  display: grid;
+  grid-template-columns:
+    1fr
+    2fr
+    1fr;
+
+  gap: var(--grid-gap);
+  align-items: center;
+}
+
+.diploma-side {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.diploma-side img {
+  width: 60%;
+  height: auto;
+  display: block;
+  transition: transform var(--transition-slow);
+}
+
+.diploma-side:first-child img {
+  width: 50%;
+}
+
+.diploma-side:last-child img {
+  width: 50%;
+}
+
+.diploma-center {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  column-gap: var(--grid-gap);
+  row-gap: var(--space-16);
+}
+
+.diploma-book {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.diploma-book img {
+  width: 70%;
+  height: auto;
+  object-fit: contain;
+  display: block;
+
+  transition: transform var(--transition-slow);
+}
+
+.diploma-book:hover img,
+.diploma-side:hover img {
+  transform: scale(1.06);
+}
+
+.lockdown-grid {
+  align-items: center;
+}
+
+.lockdown-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  overflow: visible;
+}
+
+.lockdown-item img {
+  width: 80%;
+  height: auto;
+
+  display: block;
+  object-fit: contain;
+
+  transition: transform var(--transition-slow);
+}
+
+.lockdown-item:hover img {
+  transform: scale(1.04);
+}
+
+.phase-grid-childhood {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: var(--grid-gap);
+
+  overflow: visible;
+}
+
+.childhood-item {
+  position: relative;
+  overflow: visible;
+  display: block;
+
+  z-index: 1;
+}
+
+.childhood-item img {
+  width: 100%;
+  height: 100%;
+
+  object-fit: cover;
+  display: block;
+
+  cursor: zoom-in;
+
+  transition:
+  transform var(--transition-slow);
+
+  transform-origin: center center;
+}
+
+.childhood-item:hover {
+  z-index: 20;
+}
+
+.childhood-item:hover img {
+  transform: scale(1.06);
+}
+
+footer.wrapper {
+  display:         flex;
+  justify-content: center;
+
+  padding-top:    var(--space-8);
+  padding-bottom: var(--space-8);
+
+  border-top: 1px dotted var(--black);
+  margin-top: var(--space-16);
+}
+
+.footer-content-container {
+  display:    flex;
+  gap:        var(--space-4);
+  max-width:  400px;
+  flex-wrap:  wrap;
+}
