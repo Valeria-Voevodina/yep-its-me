@@ -63,7 +63,7 @@
   }
 
   [data-theme="dark"] .menu-nav.active {
-    background: rgba(0, 0, 0, 0.4);
+    background: rgba(225, 225, 225, 0.4);
   }
 
   [data-theme="light"] .menu-nav.active,
