@@ -71,7 +71,7 @@ function altFromSrc(src) {
   // берём только имя файла без пути и расширения
   const filename = src.split("/").pop().replace(/\.[^.]+$/, "");
 
-  return filename.replace(/[_.]+/g, " ").trim();
+  return filename.replace(/[-_.]+/g, "—").trim();
 }
 
 
