@@ -1,7 +1,3 @@
-/* ============================================================
-   BHSAD-PROJECT.JS — bhsad-project.html?id=01-...
-   ============================================================ */
-
 const layouts = {
 
   "double-image-pdf": (p) => `
@@ -100,6 +96,8 @@ function render(p) {
   content.innerHTML = layoutFn(p);
 }
 
+content.innerHTML = layoutFn(p);
+if (window.initPdfs) window.initPdfs(content);
 
 /* ------------------------------------------------------------
    ОШИБКА
