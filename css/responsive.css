@@ -234,3 +234,47 @@
   }
 
 }
+
+@media (max-width: 768px) {
+
+  iframe[src$=".pdf"] {
+    display: none;
+  }
+
+  /* ссылка-замена */
+  .pdf-mobile {
+    width: 100%;
+  }
+
+  .pdf-mobile__link {
+    display:         block;
+    text-decoration: none;
+    color:           inherit;
+    border:          1px dotted currentColor;
+    padding:         var(--space-6) var(--space-4);
+    transition:      opacity var(--transition-base);
+  }
+
+  .pdf-mobile__link:hover {
+    opacity: 0.7;
+  }
+
+  .pdf-mobile__inner {
+    display:         flex;
+    justify-content: space-between;
+    align-items:     center;
+    font-family:     var(--font-mono);
+    font-size:       var(--text-base);
+    text-transform:  uppercase;
+  }
+
+  .pdf-mobile__label {
+    font-style: italic;
+    opacity:    0.6;
+  }
+
+  .pdf-mobile__action {
+    font-weight: 600;
+  }
+
+}
