@@ -1,3 +1,12 @@
+/* ============================================================
+   PDF.JS
+   На мобиле заменяет iframe с PDF на ссылку.
+   Вызывается автоматически после любого рендера PDF.
+
+   Использование:
+   <script src="js/pdf.js"></script>
+   ============================================================ */
+
 function initPdfs(root = document) {
   const isMobile = window.innerWidth <= 768 ||
     /Android|iPhone|iPad|iPod/i.test(navigator.userAgent);
@@ -7,6 +16,7 @@ function initPdfs(root = document) {
 
     const src = iframe.getAttribute("src");
 
+    // создаём замену — ссылка в стиле сайта
     const wrapper = document.createElement("div");
     wrapper.className = "pdf-mobile";
     wrapper.innerHTML = `
@@ -22,10 +32,12 @@ function initPdfs(root = document) {
   });
 }
 
+// запускаем после загрузки DOM
 if (document.readyState === "loading") {
   document.addEventListener("DOMContentLoaded", () => initPdfs());
 } else {
   initPdfs();
 }
 
+// экспортируем для вызова после динамического рендера
 window.initPdfs = initPdfs;
