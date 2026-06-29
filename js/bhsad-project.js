@@ -9,7 +9,6 @@ const layouts = {
     </div>
     ${p.assets.pdf ? `
     <div class="center-columns">
-      <p class="text--muted pdf-loading">// loading pdf...</p>
       <iframe
         src="${p.assets.pdf}"
         loading="lazy"
@@ -94,10 +93,8 @@ function render(p) {
   if (!layoutFn) { showError(`unknown layout: "${layoutKey}"`); return; }
 
   content.innerHTML = layoutFn(p);
+  if (window.initPdfs) window.initPdfs(content);
 }
-
-content.innerHTML = layoutFn(p);
-if (window.initPdfs) window.initPdfs(content);
 
 /* ------------------------------------------------------------
    ОШИБКА
@@ -120,3 +117,4 @@ function showError(msg) {
     </div>
   `;
 }
+
