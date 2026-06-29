@@ -16,8 +16,6 @@
   display:               grid;
   grid-template-columns: repeat(4, 1fr);
   gap:                   var(--grid-gap);
-  padding-left: var(--grid-gap);
-  padding-right: var(--grid-gap);
 }
 
 .grid-8 {
